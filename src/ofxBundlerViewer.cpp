@@ -206,19 +206,17 @@ void ofxBundlerViewer::getCameraExtrinsics(sfmCamera &_cam, ofBuffer &_buffer){
 
 void ofxBundlerViewer::draw(){
     for (int i = 0; i < cameras.size(); i++) {
-        ofPushMatrix();
-        ofTranslate(cameras[i].pos.x,cameras[i].pos.y,cameras[i].pos.z);
-        
+
         glm::vec3 dir = cameras[i].R * glm::vec3(0,0,-0.2);
-        
         if(cameras[i].loc.lat != 0 || cameras[i].loc.lon != 0){
             ofSetColor(0,255,0);
         } else {
             ofSetColor(255,0,0);
         }
         
-        ofDrawArrow(ofPoint(0,0), ofPoint(dir.x,dir.y,dir.z));
-        ofPopMatrix();
+        ofLine(ofPoint(cameras[i].pos.x,cameras[i].pos.y,cameras[i].pos.z),
+               ofPoint(cameras[i].pos.x,cameras[i].pos.y,cameras[i].pos.z)+ofPoint(dir.x,dir.y,dir.z));
+
     }
     
     glBegin(GL_POINTS);
