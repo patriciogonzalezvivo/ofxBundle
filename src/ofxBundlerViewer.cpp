@@ -10,7 +10,7 @@
 
 
 ofxBundlerViewer::ofxBundlerViewer(){
-    
+    points.setMode(OF_PRIMITIVE_POINTS);
 }
 
 ofxBundlerViewer::~ofxBundlerViewer(){
@@ -45,43 +45,46 @@ void ofxBundlerViewer::load(string _bundleRdOut){
                 cam.setIntrinsics(buffer);
                 cameras.push_back(cam);
             } else {
-                points.push_back(getPoint(buffer));
+                ofPoint position;
+                vector<string> pos = ofSplitString(buffer.getNextLine(), " ");
+                position.x = ofToFloat(pos[0]);
+                position.y = ofToFloat(pos[1]);
+                position.z = ofToFloat(pos[2]);
+                
+                ofFloatColor color;
+                vector<string> col = ofSplitString(buffer.getNextLine(), " ");
+                color.r = (float)ofToInt(col[0])/255.;
+                color.g = (float)ofToInt(col[1])/255.;
+                color.b = (float)ofToInt(col[2])/255.;
+                color.a = 1.0;
+                
+                vector<string> vList = ofSplitString(buffer.getNextLine(), " ");
+//                for (int i = 0; i < vList.size(); i++) {
+//                    viewList.push_back(ofToDouble(vList[i]));
+//                }
+                
+                points.addColor(color);
+                points.addVertex(position);
             }
         }
         counter++;
     }
     
-    if(totalCameras == cameras.size() && totalPoints == points.size()){
+    if(totalCameras == cameras.size() && totalPoints == points.getVertices().size()){
         cout << "Bundle file LOADED" << endl;
     }
 }
 
-sfmPoint ofxBundlerViewer::getPoint(ofBuffer &_buffer){
-    sfmPoint rta;
-    
-    vector<string> pos = ofSplitString(_buffer.getNextLine(), " ");
-    rta.position.x = ofToFloat(pos[0]);
-    rta.position.y = ofToFloat(pos[1]);
-    rta.position.z = ofToFloat(pos[2]);
-    
-    vector<string> col = ofSplitString(_buffer.getNextLine(), " ");
-    rta.color.r = (float)ofToInt(col[0])/255.;
-    rta.color.g = (float)ofToInt(col[1])/255.;
-    rta.color.b = (float)ofToInt(col[2])/255.;
-    
-    vector<string> vList = ofSplitString(_buffer.getNextLine(), " ");
-    for (int i = 0; i < vList.size(); i++) {
-        rta.viewList.push_back(ofToDouble(vList[i]));
-    }
-    
-    return rta;
-}
+//struct sfmPoint{
+//    ofFloatColor    color;      // [a 3-vector describing the RGB color of the point]
+//    ofPoint         position;   // [a 3-vector describing the 3D position of the point]
+//    vector<double>  viewList; // [a list of views the point is visible in]
+//};
 
 void ofxBundlerViewer::loadList(string _list_txt){
     //  TODO
     //
 }
-
 
 void ofxBundlerViewer::loadCameras(string _cameras_v2_txt){
     
@@ -139,10 +142,5 @@ void ofxBundlerViewer::draw(){
         cameras[i].draw();
     }
     
-    glBegin(GL_POINTS);
-    for (int i = 0; i < points.size(); i++) {
-        glColor3fv(&points[i].color.r);
-        glVertex3fv(&points[i].position.x);
-    }
-    glEnd();
+    points.drawVertices();
 }

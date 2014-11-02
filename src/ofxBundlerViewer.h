@@ -11,12 +11,6 @@
 
 #include "sfmCamera.h"
 
-struct sfmPoint{
-    glm::vec3   color;      // [a 3-vector describing the RGB color of the point]
-    glm::vec3   position;   // [a 3-vector describing the 3D position of the point]
-    vector<double> viewList; // [a list of views the point is visible in]
-};
-
 class ofxBundlerViewer {
 public:
     
@@ -31,11 +25,10 @@ public:
     
     GeoLoc  geoCamerasCentroid;
     
-    vector<sfmPoint>    points;
+    ofVboMesh           points;
     vector<sfmCamera>   cameras;
     
     vector<int>         geoCamerasIndex;
 private:
     
-    sfmPoint    getPoint(ofBuffer &_buffer);
 };
