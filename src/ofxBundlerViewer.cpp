@@ -74,6 +74,14 @@ sfmCamera ofxBundlerViewer::getCameraIntrinsics(ofBuffer &_buffer){
     rta.t.y = ofToFloat(pos[1]);
     rta.t.z = ofToFloat(pos[2]);
     
+    //  Convert values to OF
+    //
+    glm::quat q = glm::quat_cast(rta.R);
+    rta.rot.set(q[0], q[1], q[2], q[3]);
+    
+    glm::vec3 p = -rta.R * rta.t;
+    rta.pos.set(p.x,p.y,p.z);
+    
     return rta;
 }
 
@@ -178,18 +186,7 @@ void ofxBundlerViewer::getCameraExtrinsics(sfmCamera &_cam, ofBuffer &_buffer){
         _cam.imgPath = imgFile;
     }
     
-    for (int i = 0; i < 4; i++) {
-        string tmp = _buffer.getNextLine();
-    }
-    
-    vector<string> quat = ofSplitString(_buffer.getNextLine()," ");
-    
-    _cam.rot.set(ofToDouble(quat[0]), ofToDouble(quat[1]), ofToDouble(quat[2]), ofToDouble(quat[3]));
-    
-    glm::vec3 pos = -_cam.R * _cam.t;
-    _cam.pos.set(pos.x,pos.y,pos.z);
-    
-    for (int i = 0; i < 4; i++) {
+    for (int i = 0; i < 9; i++) {
         string tmp = _buffer.getNextLine();
     }
     

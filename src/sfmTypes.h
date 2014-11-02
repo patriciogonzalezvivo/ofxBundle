@@ -20,12 +20,14 @@ struct GeoLoc {
 //  Using he reference from: https://github.com/snavely/bundler_sfm
 //
 struct sfmCamera{
+    
+    ofQuaternion    rot;        //  Camera Orientation
+    ofPoint         pos;        //  Camera Position
+    
     //  From cameras_v2.txt
     //
     std::string     imgPath;    //  Image;
     GeoLoc          loc;        //  Geo location
-    ofPoint         pos;        //  Camera Position
-    ofQuaternion    rot;        //  Camera Orientation
     
     //  From boundle.rd.out
     //
