@@ -41,7 +41,9 @@ void ofxBundlerViewer::load(string _bundleRdOut){
             cout << "About to load " << totalCameras << " and " << totalPoints << " points"<< endl;
         } else {
             if(totalCameras != cameras.size()){
-                cameras.push_back(getCameraIntrinsics(buffer));
+                sfmCamera cam;
+                cam.setIntrinsics(buffer);
+                cameras.push_back(cam);
             } else {
                 points.push_back(getPoint(buffer));
             }
@@ -52,37 +54,6 @@ void ofxBundlerViewer::load(string _bundleRdOut){
     if(totalCameras == cameras.size() && totalPoints == points.size()){
         cout << "Bundle file LOADED" << endl;
     }
-}
-
-sfmCamera ofxBundlerViewer::getCameraIntrinsics(ofBuffer &_buffer){
-    sfmCamera rta;
-    
-    vector<string> intrinsics = ofSplitString(_buffer.getNextLine(), " ");
-    rta.f = ofToDouble(intrinsics[0]);
-    rta.k1 = ofToDouble(intrinsics[1]);
-    rta.k2 = ofToDouble(intrinsics[2]);
-    
-    for (int i = 0; i < 3; i++) {
-        vector<string> row = ofSplitString(_buffer.getNextLine(), " ");
-        rta.R[i][0] = ofToFloat(row[0]);
-        rta.R[i][1] = ofToFloat(row[1]);
-        rta.R[i][2] = ofToFloat(row[2]);
-    }
-    
-    vector<string> pos = ofSplitString(_buffer.getNextLine(), " ");
-    rta.t.x = ofToFloat(pos[0]);
-    rta.t.y = ofToFloat(pos[1]);
-    rta.t.z = ofToFloat(pos[2]);
-    
-    //  Convert values to OF
-    //
-    glm::quat q = glm::quat_cast(rta.R);
-    rta.rot.set(q[0], q[1], q[2], q[3]);
-    
-    glm::vec3 p = -rta.R * rta.t;
-    rta.pos.set(p.x,p.y,p.z);
-    
-    return rta;
 }
 
 sfmPoint ofxBundlerViewer::getPoint(ofBuffer &_buffer){
@@ -134,7 +105,7 @@ void ofxBundlerViewer::loadCameras(string _cameras_v2_txt){
             if(counter == cameras.size()){
                 break;
             }
-            getCameraExtrinsics(cameras[counter],buffer);
+            cameras[counter].setExtrinsics(buffer);
             
             if(cameras[counter].loc.lon != 0 || cameras[counter].loc.lat != 0){
                 geoCamerasIndex.push_back(counter);
@@ -163,57 +134,9 @@ void ofxBundlerViewer::loadCameras(string _cameras_v2_txt){
     }
 }
 
-void ofxBundlerViewer::getCameraExtrinsics(sfmCamera &_cam, ofBuffer &_buffer){
-    
-    //  Space
-    //  vis image
-    for (int i = 0; i < 2; i++) {
-        string tmp = _buffer.getNextLine();
-    }
-    
-    string imgFile = _buffer.getNextLine();
-    double focalLength = ofToDouble(_buffer.getNextLine());
-    if(focalLength == _cam.f){
-        cout << "Focal lenght match on " << imgFile << endl;
-    } else {
-        for (int i = 0; i < 4; i++) {
-            string tmp = _buffer.getNextLine();
-        }
-    }
-    
-    if(ofFile(ofToDataPath(imgFile)).exists()){
-//        _cam.img.loadImage(ofToDataPath(imgFile));
-        _cam.imgPath = imgFile;
-    }
-    
-    for (int i = 0; i < 9; i++) {
-        string tmp = _buffer.getNextLine();
-    }
-    
-    string geoString = _buffer.getNextLine();
-    if(geoString != "0 0 0"){
-        vector<string> geoValues = ofSplitString(geoString," ");
-        _cam.loc.lat = ofToDouble(geoValues[0]);
-        _cam.loc.lon = ofToDouble(geoValues[1]);
-        _cam.loc.alt = ofToDouble(geoValues[2]);
-        cout << "Geo location captured at " << _cam.loc.lat << "," << _cam.loc.lon << endl;
-    }
-    
-}
-
 void ofxBundlerViewer::draw(){
     for (int i = 0; i < cameras.size(); i++) {
-
-        glm::vec3 dir = cameras[i].R * glm::vec3(0,0,-0.2);
-        if(cameras[i].loc.lat != 0 || cameras[i].loc.lon != 0){
-            ofSetColor(0,255,0);
-        } else {
-            ofSetColor(255,0,0);
-        }
-        
-        ofLine(ofPoint(cameras[i].pos.x,cameras[i].pos.y,cameras[i].pos.z),
-               ofPoint(cameras[i].pos.x,cameras[i].pos.y,cameras[i].pos.z)+ofPoint(dir.x,dir.y,dir.z));
-
+        cameras[i].draw();
     }
     
     glBegin(GL_POINTS);

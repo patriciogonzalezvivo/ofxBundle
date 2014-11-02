@@ -9,10 +9,13 @@
 
 #include "ofMain.h"
 
-#include "sfmTypes.h"
+#include "sfmCamera.h"
 
-#include "ofxVectorTile.h"
-#include "ofxVectorBuilder.h"
+struct sfmPoint{
+    glm::vec3   color;      // [a 3-vector describing the RGB color of the point]
+    glm::vec3   position;   // [a 3-vector describing the 3D position of the point]
+    vector<double> viewList; // [a list of views the point is visible in]
+};
 
 class ofxBundlerViewer {
 public:
@@ -34,7 +37,5 @@ public:
     vector<int>         geoCamerasIndex;
 private:
     
-    sfmCamera   getCameraIntrinsics(ofBuffer &_buffer);
-    void        getCameraExtrinsics(sfmCamera &_cam, ofBuffer &_buffer);
     sfmPoint    getPoint(ofBuffer &_buffer);
 };
