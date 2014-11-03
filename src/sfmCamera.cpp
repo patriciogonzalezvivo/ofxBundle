@@ -86,9 +86,9 @@ void sfmCamera::setExtrinsics(ofBuffer &_buffer){
 
 void sfmCamera::draw(){
     
-    float w = (width/height)*0.1;
-    float h = 0.1;
-    float d = 0.2;
+    float w = width/f;
+    float h = height/f;
+    float d = 0.5;
     
     
     glm::vec3 points[4] = {R * glm::vec3(-w,-h,-d),
