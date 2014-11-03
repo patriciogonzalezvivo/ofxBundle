@@ -9,7 +9,7 @@
 #include "ofxBundlerViewer.h"
 
 
-ofxBundlerViewer::ofxBundlerViewer(){
+ofxBundlerViewer::ofxBundlerViewer():centroidAlt(0.0),centroidLon(0.0),centroidLat(0.0){
     points.setMode(OF_PRIMITIVE_POINTS);
 }
 
@@ -110,29 +110,29 @@ void ofxBundlerViewer::loadCameras(string _cameras_v2_txt){
             }
             cameras[counter].setExtrinsics(buffer);
             
-            if(cameras[counter].loc.lon != 0 || cameras[counter].loc.lat != 0){
-                geoCamerasIndex.push_back(counter);
+            if(cameras[counter].lon != 0 || cameras[counter].lat != 0){
+                geoLocCameras.push_back(counter);
             }
             counter++;
         }
     }
     
-    if(geoCamerasIndex.size() > 0){
+    if(geoLocCameras.size() > 0){
         
         //  Calculate GEO-Centroid and SfM
         //
-        geoCamerasCentroid.lat = 0.0;
-        geoCamerasCentroid.lon = 0.0;
-        geoCamerasCentroid.alt = 0.0;
+        centroidLat = 0.0;
+        centroidLon = 0.0;
+        centroidAlt = 0.0;
         
-        for(unsigned int i = 0; i < geoCamerasIndex.size(); i++) {
-            geoCamerasCentroid.lat += cameras[geoCamerasIndex[i]].loc.lat;
-            geoCamerasCentroid.lon += cameras[geoCamerasIndex[i]].loc.lon;
-            geoCamerasCentroid.alt += cameras[geoCamerasIndex[i]].loc.alt;
+        for(unsigned int i = 0; i < geoLocCameras.size(); i++) {
+            centroidLat += cameras[geoLocCameras[i]].lat;
+            centroidLon += cameras[geoLocCameras[i]].lon;
+            centroidAlt += cameras[geoLocCameras[i]].alt;
         }
-        geoCamerasCentroid.lat /= geoCamerasIndex.size();
-        geoCamerasCentroid.lon /= geoCamerasIndex.size();
-        geoCamerasCentroid.alt /= geoCamerasIndex.size();
+        centroidLat /= geoLocCameras.size();
+        centroidLon /= geoLocCameras.size();
+        centroidAlt /= geoLocCameras.size();
         
     }
 }

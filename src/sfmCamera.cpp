@@ -8,7 +8,7 @@
 
 #include "sfmCamera.h"
 
-sfmCamera::sfmCamera(){
+sfmCamera::sfmCamera():imgPath("NONE"),R(1.0),t(0.,0.,0.),lat(0.0),lon(0.0),alt(0.0),f(0.0),k1(0.0),k2(0.0) {
     
 }
 
@@ -38,10 +38,10 @@ void sfmCamera::setIntrinsics(ofBuffer &_buffer){
     //  Convert values to OF
     //
     glm::quat q = glm::quat_cast(R);
-    rot.set(q[0], q[1], q[2], q[3]);
+    setOrientation(ofQuaternion(q[0], q[1], q[2], q[3]));
     
     glm::vec3 p = -R * t;
-    pos.set(p[0],p[1],p[2]);
+    setPosition(p[0],p[1],p[2]);
 }
 
 void sfmCamera::setExtrinsics(ofBuffer &_buffer){
@@ -72,10 +72,10 @@ void sfmCamera::setExtrinsics(ofBuffer &_buffer){
     string geoString = _buffer.getNextLine();
     if(geoString != "0 0 0"){
         vector<string> geoValues = ofSplitString(geoString," ");
-        loc.lat = ofToDouble(geoValues[0]);
-        loc.lon = ofToDouble(geoValues[1]);
-        loc.alt = ofToDouble(geoValues[2]);
-        cout << "Geo location captured at " << loc.lat << "," << loc.lon << endl;
+        lat = ofToDouble(geoValues[0]);
+        lon = ofToDouble(geoValues[1]);
+        alt = ofToDouble(geoValues[2]);
+        cout << "Geo location captured at " << lat << "," << lon << endl;
     }
     
 }
@@ -87,23 +87,31 @@ void sfmCamera::draw(){
     float h = 0.1;
     float d = 0.2;
     
-    glm::vec3 topLeft = R * glm::vec3(-w,-h,-d);
-    glm::vec3 topRight = R * glm::vec3(w,-h,-d);
-    glm::vec3 bottomRight = R * glm::vec3(w,h,-d);
-    glm::vec3 bottomLeft = R * glm::vec3(-w,h,-d);
     
-    if(loc.lat != 0 || loc.lon != 0){
+    glm::vec3 points[4] = {R * glm::vec3(-w,-h,-d),
+                           R * glm::vec3(w,-h,-d),
+                           R * glm::vec3(w,h,-d),
+                            R * glm::vec3(-w,h,-d)};
+    
+    ofPoint center = getPosition();
+    ofPoint topLeft = center+ofPoint(points[0].x,points[0].y,points[0].z);
+    ofPoint topRight = center+ofPoint(points[1].x,points[1].y,points[1].z);
+    ofPoint bottomRight = center+ofPoint(points[2].x,points[2].y,points[2].z);
+    ofPoint bottomLeft = center+ofPoint(points[3].x,points[3].y,points[3].z);
+    
+    
+    if(lat != 0 || lon != 0){
         ofSetColor(0,255,0);
     } else {
         ofSetColor(255,0,0);
     }
     
-    ofLine(pos,pos+ofPoint(topLeft.x,topLeft.y,topLeft.z));
-    ofLine(pos+ofPoint(topLeft.x,topLeft.y,topLeft.z),pos+ofPoint(topRight.x,topRight.y,topRight.z));
-    ofLine(pos,pos+ofPoint(topRight.x,topRight.y,topRight.z));
-    ofLine(pos+ofPoint(topRight.x,topRight.y,topRight.z),pos+ofPoint(bottomRight.x,bottomRight.y,bottomRight.z));
-    ofLine(pos,pos+ofPoint(bottomRight.x,bottomRight.y,bottomRight.z));
-    ofLine(pos+ofPoint(bottomRight.x,bottomRight.y,bottomRight.z),pos+ofPoint(bottomLeft.x,bottomLeft.y,bottomLeft.z));
-    ofLine(pos,pos+ofPoint(bottomLeft.x,bottomLeft.y,bottomLeft.z));
-    ofLine(pos+ofPoint(bottomLeft.x,bottomLeft.y,bottomLeft.z),pos+ofPoint(topLeft.x,topLeft.y,topLeft.z));
+    ofLine(center,topLeft);
+    ofLine(topLeft,topRight);
+    ofLine(center,topRight);
+    ofLine(topRight,bottomRight);
+    ofLine(center,bottomRight);
+    ofLine(bottomRight,bottomLeft);
+    ofLine(center,bottomLeft);
+    ofLine(bottomLeft,topLeft);
 }

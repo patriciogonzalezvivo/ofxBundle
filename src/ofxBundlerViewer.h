@@ -23,12 +23,15 @@ public:
     
     void    draw();
     
-    GeoLoc  geoCamerasCentroid;
-    
     ofVboMesh           points;
     vector<sfmCamera>   cameras;
     
-    vector<int>         geoCamerasIndex;
+    vector<int>         geoLocCameras;  // Index list of geoLocated cameras
+    
+    double              centroidLat;
+    double              centroidLon;
+    double              centroidAlt;
+    
 private:
     
 };

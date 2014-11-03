@@ -17,14 +17,9 @@ void ofApp::update(){
     float lerpPct = 0.5;
     if(nCamera >= 0 ){
         if(fCameraPct>0.01){
-            cam.setPosition(cam.getPosition().getInterpolated(ofPoint(bundler.cameras[nCamera].pos.x,
-                                                                      bundler.cameras[nCamera].pos.y,
-                                                                      bundler.cameras[nCamera].pos.z),
-                                                              1.0-fCameraPct) );
+            cam.setPosition(cam.getPosition().getInterpolated(bundler.cameras[nCamera].getPosition(), 1.0-fCameraPct) );
             ofQuaternion q;
-            q.slerp(1.0-fCameraPct,
-                    cam.getOrientationQuat(),
-                    bundler.cameras[nCamera].rot );
+            q.slerp(1.0-fCameraPct,cam.getOrientationQuat(),bundler.cameras[nCamera].getOrientationQuat() );
             cam.setGlobalOrientation(q);
             fCameraPct *= (1.0- powf(10.0, (1.0-lerpPct)*-3.0 ) );
         }
