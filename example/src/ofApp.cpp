@@ -6,6 +6,7 @@ void ofApp::setup(){
     ofEnableDepthTest();
     
     bundler.load();
+    bundler.loadCameras();
 //    mesh.load("clean.ply");
     
     nCamera = -1;
@@ -39,6 +40,13 @@ void ofApp::draw(){
     bundler.draw();
     mesh.drawVertices();
     
+    if(nCamera != -1 && bundler.cameras[nCamera].imgPath != "NONE"){
+        ofSetColor(255,255.*(1.-fCameraPct));
+        img.bind();
+        bundler.cameras[nCamera].drawPhotoBillboard();
+        img.unbind();
+    }
+    
     ofPopMatrix();
     cam.end();
 }
@@ -46,13 +54,23 @@ void ofApp::draw(){
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
     
-    if(key == ' '){
+    if(key == ' ' || key == OF_KEY_RIGHT){
         nCamera++;
         if(nCamera >= bundler.cameras.size()){
             nCamera = -1;
         }
-        fCameraPct = 1.0;
+    } if(key == OF_KEY_LEFT){
+        nCamera--;
+        if(nCamera == -1){
+            nCamera = bundler.cameras.size()-1;
+        }
     }
+    
+    if(nCamera != -1 && bundler.cameras[nCamera].imgPath != "NONE"){
+        ofLoadImage(img, bundler.cameras[nCamera].imgPath);
+    }
+    
+    fCameraPct = 1.0;
 
 }
 

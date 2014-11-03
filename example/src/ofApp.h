@@ -25,6 +25,7 @@ public:
     ofxBundlerViewer  bundler;
     
     ofVboMesh   mesh;
+    ofTexture   img;
     
     int         nCamera;
     float       fCameraPct;

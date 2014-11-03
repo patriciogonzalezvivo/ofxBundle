@@ -24,10 +24,12 @@ public:
     void    setExtrinsics(ofBuffer &_buffer);
     
     void    draw();
+    void    drawPhotoBillboard();
     
     //  From cameras_v2.txt
     //
     std::string     imgPath;        // Image
+    float           width,height;
     double          lon,lat,alt;    // GeoLocation
     
     //  From boundle.rd.out

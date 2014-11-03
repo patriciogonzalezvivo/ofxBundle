@@ -61,11 +61,14 @@ void sfmCamera::setExtrinsics(ofBuffer &_buffer){
     }
     
     if(ofFile(ofToDataPath(imgFile)).exists()){
-        //        _cam.img.loadImage(ofToDataPath(imgFile));
         imgPath = imgFile;
     }
     
-    for (int i = 0; i < 9; i++) {
+    vector<string> sizeValues = ofSplitString(_buffer.getNextLine()," ");
+    width = ofToFloat(sizeValues[0]);
+    height = ofToFloat(sizeValues[1]);
+    
+    for (int i = 0; i < 8; i++) {
         string tmp = _buffer.getNextLine();
     }
     
@@ -83,7 +86,7 @@ void sfmCamera::setExtrinsics(ofBuffer &_buffer){
 
 void sfmCamera::draw(){
     
-    float w = 0.1;
+    float w = (width/height)*0.1;
     float h = 0.1;
     float d = 0.2;
     
@@ -114,4 +117,28 @@ void sfmCamera::draw(){
     ofLine(bottomRight,bottomLeft);
     ofLine(center,bottomLeft);
     ofLine(bottomLeft,topLeft);
+}
+
+void sfmCamera::drawPhotoBillboard(){
+    float w = width;
+    float h = height;
+    float d = f;
+    
+    glm::vec3 points[4] = { R * glm::vec3(-width,height,-f),
+                            R * glm::vec3(width,height,-f),
+                            R * glm::vec3(width,-height,-f),
+                            R * glm::vec3(-width,-height,-f)};
+    
+    ofPoint center = getPosition();
+    ofPoint topLeft = center+ofPoint(points[0].x,points[0].y,points[0].z);
+    ofPoint topRight = center+ofPoint(points[1].x,points[1].y,points[1].z);
+    ofPoint bottomRight = center+ofPoint(points[2].x,points[2].y,points[2].z);
+    ofPoint bottomLeft = center+ofPoint(points[3].x,points[3].y,points[3].z);
+    
+    glBegin(GL_QUADS);
+    glTexCoord2f(0, 0); glVertex3fv(&topLeft.x);
+    glTexCoord2f(width*2.0, 0); glVertex3fv(&topRight.x);
+    glTexCoord2f(width*2.0, height*2.0); glVertex3fv(&bottomRight.x);
+    glTexCoord2f(0,height*2.0);  glVertex3fv(&bottomLeft.x);
+    glEnd();
 }
