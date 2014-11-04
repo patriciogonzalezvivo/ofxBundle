@@ -8,7 +8,7 @@
 
 #include "sfmCamera.h"
 
-sfmCamera::sfmCamera():imgPath("NONE"),R(1.0),t(0.,0.,0.),lat(0.0),lon(0.0),alt(0.0),f(0.0),k1(0.0),k2(0.0) {
+sfmCamera::sfmCamera():imgPath("NONE"),R(1.0),t(0.,0.,0.),lat(0.0),lon(0.0),alt(0.0),f(0.0),k1(0.0),k2(0.0){
     
 }
 
@@ -55,9 +55,9 @@ void sfmCamera::setExtrinsics(ofBuffer &_buffer){
     string imgFile = _buffer.getNextLine();
     double focalLength = ofToDouble(_buffer.getNextLine());
     if(focalLength == f){
-        cout << "Focal lenght match on " << imgFile << endl;
+//        cout << "Focal lenght match on " << imgFile << endl;
     } else {
-        cout << "Focal lenght DON'T match on " << imgFile << endl;
+        cout << "ERROR: Focal lenght DON'T match on " << imgFile << endl;
     }
     
     if(ofFile(ofToDataPath(imgFile)).exists()){
@@ -78,7 +78,6 @@ void sfmCamera::setExtrinsics(ofBuffer &_buffer){
         lat = ofToDouble(geoValues[0]);
         lon = ofToDouble(geoValues[1]);
         alt = ofToDouble(geoValues[2]);
-        cout << "Geo location captured at " << lat << "," << lon << endl;
     }
     
 }
@@ -89,12 +88,11 @@ void sfmCamera::draw(){
     float w = width/f;
     float h = height/f;
     float d = 0.5;
-    
-    
-    glm::vec3 points[4] = {R * glm::vec3(-w,-h,-d),
-                           R * glm::vec3(w,-h,-d),
-                           R * glm::vec3(w,h,-d),
-                            R * glm::vec3(-w,h,-d)};
+
+    glm::vec3 points[4] = { R * glm::vec3(-w,h,-d),
+                            R * glm::vec3(w,h,-d),
+                            R * glm::vec3(w,-h,-d),
+                            R * glm::vec3(-w,-h,-d) };
     
     ofPoint center = getPosition();
     ofPoint topLeft = center+ofPoint(points[0].x,points[0].y,points[0].z);
@@ -120,14 +118,11 @@ void sfmCamera::draw(){
 }
 
 void sfmCamera::drawPhotoBillboard(){
-    float w = width;
-    float h = height;
-    float d = f;
     
     glm::vec3 points[4] = { R * glm::vec3(-width,height,-f),
                             R * glm::vec3(width,height,-f),
                             R * glm::vec3(width,-height,-f),
-                            R * glm::vec3(-width,-height,-f)};
+                            R * glm::vec3(-width,-height,-f) };
     
     ofPoint center = getPosition();
     ofPoint topLeft = center+ofPoint(points[0].x,points[0].y,points[0].z);

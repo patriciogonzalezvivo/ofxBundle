@@ -37,5 +37,4 @@ public:
     glm::mat3   R;          //  [a 3x3 matrix representing the camera rotation]
     glm::vec3   t;          //  [a 3-vector describing the camera translation]
     double      f, k1, k2;  //  [the focal length, followed by two radial distortion coeffs]
-    
 };
