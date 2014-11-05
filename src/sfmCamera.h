@@ -8,9 +8,8 @@
 #pragma once
 
 #include "ofMain.h"
-#include "glm/glm.hpp"
-#include "glm/gtc/matrix_transform.hpp"
-#include "glm/gtc/quaternion.hpp"
+
+#include "ofxGlm.h"
 
 //  Using he reference from: https://github.com/snavely/bundler_sfm
 //

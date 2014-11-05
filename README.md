@@ -1,3 +1,7 @@
+For the moment this addon let you open bundler files (that contains the cameras and matching points) of the Structure for Motion reconstruction on openFrameworks;
+
+![Image](images/00.gif)
+
 ## What is Bundler?
 
 [Bundler](http://www.cs.cornell.edu/~snavely/bundler/) is a structure-from-motion (SfM) system for unordered image collections (for instance, images from the Internet) written in C and C++. An earlier version of this SfM system was used in the [Photo Tourism](http://phototour.cs.washington.edu/) project. For structure-from-motion datasets, please see the [BigSFM](http://www.cs.cornell.edu/projects/bigsfm/) page.
