@@ -9,7 +9,370 @@
 		<string>46</string>
 		<key>objects</key>
 		<dict>
-			<key>94B98883C8B756AB6151C48E</key>
+			<key>e4f2c2663cf34a0ab17e1db7a849185b</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>glmRectangle.h</string>
+				<key>path</key>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools/shapes/glmRectangle.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>fb4de4010f7357290b9e74c2a1c8e90f</key>
+			<dict>
+				<key>fileRef</key>
+				<string>b813ca9f3165e9a9482cd23de2a3ee37</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>b813ca9f3165e9a9482cd23de2a3ee37</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>glmRectangle.cpp</string>
+				<key>path</key>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools/shapes/glmRectangle.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>80214dc8d2f5a70565831c363f05dd10</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>glmPolyline.h</string>
+				<key>path</key>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools/shapes/glmPolyline.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>91be1d6e1288edeb8bfec4802c09caf6</key>
+			<dict>
+				<key>fileRef</key>
+				<string>377e2b6d1ea1192159d963a3fa60c02a</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>377e2b6d1ea1192159d963a3fa60c02a</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>glmPolyline.cpp</string>
+				<key>path</key>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools/shapes/glmPolyline.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>9606fa4d5ab345dd8cff2eb13f7719eb</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>glmPolarPoint.h</string>
+				<key>path</key>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools/shapes/glmPolarPoint.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>5cf230bdbf1729edf6fc53d471d63766</key>
+			<dict>
+				<key>fileRef</key>
+				<string>69495a04c135ed0c8f86641ab2efca52</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>69495a04c135ed0c8f86641ab2efca52</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>glmPolarPoint.cpp</string>
+				<key>path</key>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools/shapes/glmPolarPoint.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>09e09044f9af1285abb758c6526ea1f6</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>glmFastPolyline.h</string>
+				<key>path</key>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools/shapes/glmFastPolyline.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>6a0a5167b5057fce42691c5c255c644d</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>0fde0500f95ede5a040ca8065f282a5d</string>
+					<string>09e09044f9af1285abb758c6526ea1f6</string>
+					<string>69495a04c135ed0c8f86641ab2efca52</string>
+					<string>9606fa4d5ab345dd8cff2eb13f7719eb</string>
+					<string>377e2b6d1ea1192159d963a3fa60c02a</string>
+					<string>80214dc8d2f5a70565831c363f05dd10</string>
+					<string>b813ca9f3165e9a9482cd23de2a3ee37</string>
+					<string>e4f2c2663cf34a0ab17e1db7a849185b</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>shapes</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>8e273c0791aac94b22c52f76a747ce79</key>
+			<dict>
+				<key>fileRef</key>
+				<string>0fde0500f95ede5a040ca8065f282a5d</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>0fde0500f95ede5a040ca8065f282a5d</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>glmFastPolyline.cpp</string>
+				<key>path</key>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools/shapes/glmFastPolyline.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>a924cc067b8fca3df327aa7d88ecd3ef</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>glmVectorField.h</string>
+				<key>path</key>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools/physics/glmVectorField.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>4e7760b4cb15ee2c067e9bddb301a472</key>
+			<dict>
+				<key>fileRef</key>
+				<string>564de4a80a7418514d8199c7ca534a6a</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>564de4a80a7418514d8199c7ca534a6a</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>glmVectorField.cpp</string>
+				<key>path</key>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools/physics/glmVectorField.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>a92f3d91ccc7f8eefd17b9b9406e8182</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>glmParticle.h</string>
+				<key>path</key>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools/physics/glmParticle.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>e7dd968bc3e7237e5a8adf7225f4be2e</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>72b7acec6f054090a1af26322ffd6988</string>
+					<string>a92f3d91ccc7f8eefd17b9b9406e8182</string>
+					<string>564de4a80a7418514d8199c7ca534a6a</string>
+					<string>a924cc067b8fca3df327aa7d88ecd3ef</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>physics</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>5d799094fe8bafe31793b14074d25c0e</key>
+			<dict>
+				<key>fileRef</key>
+				<string>72b7acec6f054090a1af26322ffd6988</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>72b7acec6f054090a1af26322ffd6988</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>glmParticle.cpp</string>
+				<key>path</key>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools/physics/glmParticle.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>be6de86663ba880ad71f24f9b4453ace</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>glmTools.h</string>
+				<key>path</key>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools/glmTools.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>9d21201da0ed72c38b2ab84f7a8eed4e</key>
+			<dict>
+				<key>fileRef</key>
+				<string>946ab9ecc02bf6ab2de800101dd72e53</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>946ab9ecc02bf6ab2de800101dd72e53</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>glmTools.cpp</string>
+				<key>path</key>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools/glmTools.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>eb679c03621018b43959a4cac9a69bdc</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>glmMesh.h</string>
+				<key>path</key>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools/gl/glmMesh.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>91550e1f1fa7a922c5b80c948500f3a6</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>f9fc6ab76417d2f8e6f236b877108aaf</string>
+					<string>eb679c03621018b43959a4cac9a69bdc</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>gl</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>e0e41ee1641f6609ab0fd2970075d297</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>91550e1f1fa7a922c5b80c948500f3a6</string>
+					<string>946ab9ecc02bf6ab2de800101dd72e53</string>
+					<string>be6de86663ba880ad71f24f9b4453ace</string>
+					<string>e7dd968bc3e7237e5a8adf7225f4be2e</string>
+					<string>6a0a5167b5057fce42691c5c255c644d</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>glmTools</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>eceee53fce04b1b3c2bcea78d20dd69f</key>
+			<dict>
+				<key>fileRef</key>
+				<string>f9fc6ab76417d2f8e6f236b877108aaf</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>f9fc6ab76417d2f8e6f236b877108aaf</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>glmMesh.cpp</string>
+				<key>path</key>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools/gl/glmMesh.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>3ad4f75280ac93607dd6d28d58ef528c</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -20,11 +383,11 @@
 				<key>name</key>
 				<string>vector_relational.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/vector_relational.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/vector_relational.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>B7136EC76383396F75E3E852</key>
+			<key>61bb5f93d0d583bb338428f8321ce960</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -35,11 +398,11 @@
 				<key>name</key>
 				<string>vec4.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/vec4.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/vec4.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>68DDB006524C635FD4501B9A</key>
+			<key>6c45318f9f55715d5e1b6351d32cdbb0</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -50,11 +413,11 @@
 				<key>name</key>
 				<string>vec3.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/vec3.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/vec3.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>A9531D2E7243ED2FBBBFB68D</key>
+			<key>747737044e84e65a6a40033affc72401</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -65,11 +428,11 @@
 				<key>name</key>
 				<string>vec2.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/vec2.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/vec2.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>A6ADBED2CBEEB5151090CCBB</key>
+			<key>bb4a3fb2b9de2ebe800e92ec611ec6bc</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -80,11 +443,11 @@
 				<key>name</key>
 				<string>trigonometric.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/trigonometric.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/trigonometric.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>1279AFB5A82C42B4ED33452F</key>
+			<key>12dcb6ba1e0a6abb266e1e9071be27b4</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -95,11 +458,11 @@
 				<key>name</key>
 				<string>packing.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/packing.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/packing.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>68EF9C59E052C03B5602FCA9</key>
+			<key>9cb17449c3b71a42db6dde93112603bb</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -110,11 +473,11 @@
 				<key>name</key>
 				<string>matrix.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/matrix.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/matrix.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>22657F6000751EA1F26434D0</key>
+			<key>9a9555dcdc624af4f7d60a8e5aa65a09</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -125,11 +488,11 @@
 				<key>name</key>
 				<string>mat4x4.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/mat4x4.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/mat4x4.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>0004DAF4F858BC4B054B57D5</key>
+			<key>70fbd2937abd6c33e8d6d7f85100ed72</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -140,11 +503,11 @@
 				<key>name</key>
 				<string>mat4x3.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/mat4x3.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/mat4x3.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>030D6F351543EDF7865678CA</key>
+			<key>548f83d8b78b58923ed0b9a10934d96e</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -155,11 +518,11 @@
 				<key>name</key>
 				<string>mat4x2.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/mat4x2.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/mat4x2.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>2779B1096541417A3BF7DC4A</key>
+			<key>78e7f33239617e9737352f71e3210bdb</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -170,11 +533,11 @@
 				<key>name</key>
 				<string>mat3x4.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/mat3x4.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/mat3x4.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>D76EFDD2F6FFED909AFC0BA0</key>
+			<key>6679aa1fa0caf645e2cbe80a40d45d37</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -185,11 +548,11 @@
 				<key>name</key>
 				<string>mat3x3.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/mat3x3.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/mat3x3.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>79A4569B45C7DBC4A09319B2</key>
+			<key>585a9f4cd3e7499862e7ff13c48e3c78</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -200,11 +563,11 @@
 				<key>name</key>
 				<string>mat3x2.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/mat3x2.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/mat3x2.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>677B294B6AF70D63C34AC168</key>
+			<key>e1b7559bb9447aa2564f4d6a6a5c12cd</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -215,11 +578,11 @@
 				<key>name</key>
 				<string>mat2x4.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/mat2x4.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/mat2x4.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>41C79EB80423224D61914E91</key>
+			<key>42026d97d2583157a87732c840f9202e</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -230,11 +593,11 @@
 				<key>name</key>
 				<string>mat2x3.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/mat2x3.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/mat2x3.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>A6B40712C18E82331BC10DAC</key>
+			<key>b3178c1f85acce766d5dbfe78131b733</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -245,11 +608,11 @@
 				<key>name</key>
 				<string>mat2x2.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/mat2x2.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/mat2x2.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>7F2BD589627AA3C793F6FBA7</key>
+			<key>3681dc912c5d24b3e2d06a97f92047ec</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -260,11 +623,11 @@
 				<key>name</key>
 				<string>integer.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/integer.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/integer.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>AF92B8C25348A352437A4319</key>
+			<key>05cfede77645118403feabb689c4463e</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -275,11 +638,11 @@
 				<key>name</key>
 				<string>wrap.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/wrap.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/wrap.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>A86E205AA08FCE2E2B72E8CE</key>
+			<key>9e6a8a3bbe1e12717d78bfc1723f6727</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -290,11 +653,11 @@
 				<key>name</key>
 				<string>vector_query.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/vector_query.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/vector_query.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>82B55208AFA07651A025D470</key>
+			<key>86a508ebd01ef0631e0cd3c6d4bde4de</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -305,11 +668,11 @@
 				<key>name</key>
 				<string>vector_angle.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/vector_angle.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/vector_angle.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>462EE20F132B797BDC4FCDB7</key>
+			<key>d16ed4d4eb9e8513648be5ea22a6b767</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -320,11 +683,11 @@
 				<key>name</key>
 				<string>vec1.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/vec1.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/vec1.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>62AF95C5A843771AA812AFCF</key>
+			<key>e0fd22b04eb35c297cef5a64211520a0</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -335,11 +698,11 @@
 				<key>name</key>
 				<string>unsigned_int.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/unsigned_int.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/unsigned_int.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>32B913CD339D620EEC4564AE</key>
+			<key>b207c2e7cb61776e242144818521ca75</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -350,11 +713,11 @@
 				<key>name</key>
 				<string>ulp.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/ulp.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/ulp.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>9C9C4D4E93F0213B11727961</key>
+			<key>33a327c36d180de389de1e1450cb5ded</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -365,11 +728,11 @@
 				<key>name</key>
 				<string>transform2.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/transform2.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/transform2.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>0CA0880EEE35C0F69A7AEEBF</key>
+			<key>33d0aa77cf42076a784913fdc16fdeda</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -380,11 +743,11 @@
 				<key>name</key>
 				<string>transform.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/transform.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/transform.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>9E75E2BDF45FAD6FCB52415A</key>
+			<key>5a06e4b45eb7dcd71af443fcbc00bd49</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -395,11 +758,11 @@
 				<key>name</key>
 				<string>string_cast.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/string_cast.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/string_cast.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>8816CA58CD4A432F6C59EB40</key>
+			<key>e9b528afe9b77920e708e64bf3a9a4cc</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -410,11 +773,11 @@
 				<key>name</key>
 				<string>std_based_type.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/std_based_type.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/std_based_type.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>44CB1CFBBC958597468F2081</key>
+			<key>2ebff42c78ea6ea352da549e88817690</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -425,11 +788,11 @@
 				<key>name</key>
 				<string>spline.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/spline.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/spline.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>89CCF6BC51D0070E6BDF429C</key>
+			<key>d6968ea7acb93bbfe929f0ce324abc6c</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -440,11 +803,11 @@
 				<key>name</key>
 				<string>simd_vec4.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/simd_vec4.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/simd_vec4.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>47C04ABECC24E471471EDC33</key>
+			<key>96abf1a161fac073b6447d4e385593bd</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -455,11 +818,11 @@
 				<key>name</key>
 				<string>simd_quat.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/simd_quat.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/simd_quat.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>A193130F10A0DCD7910CAE81</key>
+			<key>0341695bbf6a54a78d47db01dcda2ebe</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -470,11 +833,11 @@
 				<key>name</key>
 				<string>simd_mat4.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/simd_mat4.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/simd_mat4.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>F1E0B6A406EB6A69AF840B05</key>
+			<key>a4992584f47bbeb3265e3ca69a65f117</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -485,11 +848,11 @@
 				<key>name</key>
 				<string>scalar_relational.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/scalar_relational.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/scalar_relational.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>42356D7C6F05F3B45C2ACE05</key>
+			<key>08948c631b71d15006818c3a86d7dace</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -500,11 +863,11 @@
 				<key>name</key>
 				<string>rotate_vector.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/rotate_vector.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/rotate_vector.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>3224AEA2EF48D0CDC0F7F168</key>
+			<key>9884f58f4c9de4c8a5f4db35a4f010da</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -515,11 +878,11 @@
 				<key>name</key>
 				<string>rotate_normalized_axis.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/rotate_normalized_axis.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/rotate_normalized_axis.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>B9C8C76364C733BF3E5ACB2B</key>
+			<key>bd18c8468b8601e9f6ba9d256fd232a9</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -530,11 +893,11 @@
 				<key>name</key>
 				<string>reciprocal.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/reciprocal.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/reciprocal.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>0CBC9CB727F5331850EB3EB5</key>
+			<key>66e003f5daeb893f0e0f7054015e92c2</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -545,11 +908,11 @@
 				<key>name</key>
 				<string>raw_data.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/raw_data.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/raw_data.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>7F97F13DCA3667D56D22CC43</key>
+			<key>7e9f16e101c8efe888aff8ee2a1d135c</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -560,11 +923,11 @@
 				<key>name</key>
 				<string>random.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/random.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/random.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>BE4E58038F84FA600E93D712</key>
+			<key>32a605a3150df5df19504efead5b7251</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -575,11 +938,11 @@
 				<key>name</key>
 				<string>quaternion.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/quaternion.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/quaternion.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>E67B137E54F4791FFB4EFEBF</key>
+			<key>b20355d0bcc2ce007fd443161084ab2d</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -590,11 +953,11 @@
 				<key>name</key>
 				<string>projection.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/projection.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/projection.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>6E1AB1851F6F2A8505755BD0</key>
+			<key>422dff2305663462e3092375d5bc8729</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -605,11 +968,11 @@
 				<key>name</key>
 				<string>polar_coordinates.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/polar_coordinates.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/polar_coordinates.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>D851473F5D96B3407FF654B7</key>
+			<key>05f14575ed22c8d09456ec1af74ff2a6</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -620,11 +983,11 @@
 				<key>name</key>
 				<string>perpendicular.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/perpendicular.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/perpendicular.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>C629128E546F143BB1A6EC81</key>
+			<key>4f38b6b6e97e395e09e85a7d70905b1e</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -635,11 +998,11 @@
 				<key>name</key>
 				<string>orthonormalize.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/orthonormalize.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/orthonormalize.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>581CC92618D2EBE1130A36BD</key>
+			<key>585c6354e5a3d47011ed2ec981cefafe</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -650,11 +1013,11 @@
 				<key>name</key>
 				<string>optimum_pow.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/optimum_pow.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/optimum_pow.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>5EA35A4793D70F572EF8826B</key>
+			<key>9d0ee6d3eb596c97122fd1ee512ee26d</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -665,11 +1028,11 @@
 				<key>name</key>
 				<string>number_precision.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/number_precision.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/number_precision.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>26A5D5456D6F2360ED3CF50A</key>
+			<key>fe636d5dd3be7a87db9e1515df0649cb</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -680,11 +1043,11 @@
 				<key>name</key>
 				<string>normalize_dot.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/normalize_dot.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/normalize_dot.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>FB1CCFB648FE180FECEE3B82</key>
+			<key>f881aebd20e356070d0501524caa0d8a</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -695,11 +1058,11 @@
 				<key>name</key>
 				<string>normal.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/normal.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/normal.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>3D161D8E3D33931AEA832737</key>
+			<key>3377d14893513816738a3b70a1f86915</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -710,11 +1073,11 @@
 				<key>name</key>
 				<string>norm.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/norm.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/norm.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>9573CB2C0446436E972192DF</key>
+			<key>517bd768b2afa74861edc8526815cd53</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -725,11 +1088,11 @@
 				<key>name</key>
 				<string>noise.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/noise.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/noise.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>5B429143FD021C1663D1A517</key>
+			<key>963b4b2c8a2dfb43ab7748a6aedc6aa7</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -740,11 +1103,11 @@
 				<key>name</key>
 				<string>multiple.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/multiple.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/multiple.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>ADD511D49A86361A39BE30F4</key>
+			<key>d54c75eda30609148bbf84b11f9dd1e0</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -755,11 +1118,11 @@
 				<key>name</key>
 				<string>mixed_product.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/mixed_product.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/mixed_product.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>50DD78F5F66788681A78F89F</key>
+			<key>c8df9791e5b3711b2f49d650658c330b</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -770,11 +1133,11 @@
 				<key>name</key>
 				<string>matrix_transform_2d.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/matrix_transform_2d.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/matrix_transform_2d.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>DB375B55B6FFE15AB45CD9B3</key>
+			<key>1733b7c99b6877eb08dbe52aabb77f6c</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -785,11 +1148,11 @@
 				<key>name</key>
 				<string>matrix_query.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/matrix_query.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/matrix_query.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>487A43DB516955C4E631176F</key>
+			<key>f3966210553ee422b1233006c50564c0</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -800,11 +1163,11 @@
 				<key>name</key>
 				<string>matrix_operation.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/matrix_operation.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/matrix_operation.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>5D538E8CA5D313C0A600F395</key>
+			<key>74bef271c23988d0ffd9a232320e9be5</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -815,11 +1178,11 @@
 				<key>name</key>
 				<string>matrix_major_storage.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/matrix_major_storage.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/matrix_major_storage.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>D220FF2F3DBFDB0E9A76C82A</key>
+			<key>5ffc4b784d39306c8382db1839797b81</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -830,11 +1193,11 @@
 				<key>name</key>
 				<string>matrix_interpolation.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/matrix_interpolation.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/matrix_interpolation.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>205741C0BF2766CAF36ADE92</key>
+			<key>7418886d2830fd9d06d89d7fab956f3e</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -845,11 +1208,11 @@
 				<key>name</key>
 				<string>matrix_cross_product.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/matrix_cross_product.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/matrix_cross_product.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>7603FD1AA44EC18A3AF0338B</key>
+			<key>8f30b67eb6d6152e4c39f88207aaafe2</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -860,11 +1223,11 @@
 				<key>name</key>
 				<string>log_base.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/log_base.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/log_base.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>E96A02E8D25D2E1A699A663A</key>
+			<key>afbcfdb55c748b224cc2d48714dc156e</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -875,11 +1238,11 @@
 				<key>name</key>
 				<string>io.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/io.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/io.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>B6E4D57456D04699CC90DFA2</key>
+			<key>37f4d6dbb844a47f4d7fca9a96e05807</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -890,11 +1253,11 @@
 				<key>name</key>
 				<string>intersect.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/intersect.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/intersect.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>7E93DE97641B3C71198ABBE6</key>
+			<key>cf3bc9052d3f08a0e74efeb16757d1f5</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -905,11 +1268,11 @@
 				<key>name</key>
 				<string>integer.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/integer.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/integer.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>CDF833A7EE7D62D5E8C5C264</key>
+			<key>c5eabed05a9b41d8c711b330e9510546</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -920,11 +1283,11 @@
 				<key>name</key>
 				<string>int_10_10_10_2.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/int_10_10_10_2.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/int_10_10_10_2.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>10FF2BAE4072C3967DD7991D</key>
+			<key>9b50adad28780ca319f2e218d10e1d64</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -935,11 +1298,11 @@
 				<key>name</key>
 				<string>inertia.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/inertia.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/inertia.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>84493819CC2C26C6D7718DF9</key>
+			<key>11f90e79733edf397bb4548c1b5bec91</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -950,11 +1313,11 @@
 				<key>name</key>
 				<string>handed_coordinate_space.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/handed_coordinate_space.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/handed_coordinate_space.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>6AA2CDC16389B1E85C4487D8</key>
+			<key>a58e28bef98d9715d84e7e2e1c240c57</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -965,11 +1328,11 @@
 				<key>name</key>
 				<string>gradient_paint.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/gradient_paint.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/gradient_paint.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>7B646EE741A9D7ADA5A3D0BA</key>
+			<key>40ef4525ce4702db0e3413ef2e0a05aa</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -980,11 +1343,11 @@
 				<key>name</key>
 				<string>fast_trigonometry.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/fast_trigonometry.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/fast_trigonometry.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>0D657E744742A99124F64155</key>
+			<key>ae32c431b1b4ffb5653737273f656e07</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -995,11 +1358,11 @@
 				<key>name</key>
 				<string>fast_square_root.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/fast_square_root.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/fast_square_root.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>3FEDF6D77930B496BEF6D157</key>
+			<key>1f5d2253e52b28ad892c31fa1e1fe5f7</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1010,11 +1373,11 @@
 				<key>name</key>
 				<string>fast_exponential.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/fast_exponential.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/fast_exponential.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>F5A78C2EDDAD92A2099A3604</key>
+			<key>cc44826e81cb0ad3aae0f518a4e41cca</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1025,11 +1388,11 @@
 				<key>name</key>
 				<string>extented_min_max.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/extented_min_max.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/extented_min_max.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>8805E092374F9B1143DDA272</key>
+			<key>aefd3fe6a3106281bc82630ebc9895cd</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1040,11 +1403,11 @@
 				<key>name</key>
 				<string>extend.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/extend.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/extend.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>3CA3212008CEB7E6123C8178</key>
+			<key>81c02f477ed22452f023602be1965b07</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1055,11 +1418,11 @@
 				<key>name</key>
 				<string>euler_angles.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/euler_angles.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/euler_angles.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>99CB8E8EE41F3D31D20343CE</key>
+			<key>65d3e44bec1b582faa3bc0c5bf3fd61b</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1070,11 +1433,11 @@
 				<key>name</key>
 				<string>epsilon.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/epsilon.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/epsilon.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>8BBF55114046D9A20B1A31D9</key>
+			<key>0c9569efafb1c1a79790bacee84a43e3</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1085,11 +1448,11 @@
 				<key>name</key>
 				<string>dual_quaternion.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/dual_quaternion.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/dual_quaternion.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>2F15F19631830CE48AA7E386</key>
+			<key>6153fcf0cbddf7b27ae40d98678b2a34</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1100,11 +1463,11 @@
 				<key>name</key>
 				<string>constants.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/constants.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/constants.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>5F15E1CB27C321ADB345B5E5</key>
+			<key>71f0731eaf0484f6e2ba605bcd718237</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1115,11 +1478,11 @@
 				<key>name</key>
 				<string>component_wise.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/component_wise.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/component_wise.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>4AD064A7642ABBF1DE950C1E</key>
+			<key>c4b31328896e15bb4105c613fa28d68d</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1130,11 +1493,11 @@
 				<key>name</key>
 				<string>compatibility.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/compatibility.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/compatibility.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>064245F538F540CD9865FD66</key>
+			<key>55ce8c6f9bbb1519f8805997edb83e5f</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1145,11 +1508,11 @@
 				<key>name</key>
 				<string>color_space_YCoCg.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/color_space_YCoCg.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/color_space_YCoCg.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>7A313401B57446DD6EA45980</key>
+			<key>5d5683b84c26a9e7bb1cbaf999948664</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1160,11 +1523,11 @@
 				<key>name</key>
 				<string>color_space.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/color_space.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/color_space.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>618B977498DD69CD37B0F81B</key>
+			<key>db3c3f22739ff419c6cd1bbae7cbad01</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1175,11 +1538,11 @@
 				<key>name</key>
 				<string>closest_point.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/closest_point.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/closest_point.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>86B43035FEBE903F910628D0</key>
+			<key>a7354d0031c9301a052d556e329753d9</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1190,77 +1553,77 @@
 				<key>name</key>
 				<string>bit.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/bit.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/bit.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>BF3F8C1EEBAB9191B80D603C</key>
+			<key>c2c160f3c85d81774cf6b2fc71db27f6</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>A7A636C9E7467E603E72266B</string>
-					<string>86B43035FEBE903F910628D0</string>
-					<string>618B977498DD69CD37B0F81B</string>
-					<string>7A313401B57446DD6EA45980</string>
-					<string>064245F538F540CD9865FD66</string>
-					<string>4AD064A7642ABBF1DE950C1E</string>
-					<string>5F15E1CB27C321ADB345B5E5</string>
-					<string>2F15F19631830CE48AA7E386</string>
-					<string>8BBF55114046D9A20B1A31D9</string>
-					<string>99CB8E8EE41F3D31D20343CE</string>
-					<string>3CA3212008CEB7E6123C8178</string>
-					<string>8805E092374F9B1143DDA272</string>
-					<string>F5A78C2EDDAD92A2099A3604</string>
-					<string>3FEDF6D77930B496BEF6D157</string>
-					<string>0D657E744742A99124F64155</string>
-					<string>7B646EE741A9D7ADA5A3D0BA</string>
-					<string>6AA2CDC16389B1E85C4487D8</string>
-					<string>84493819CC2C26C6D7718DF9</string>
-					<string>10FF2BAE4072C3967DD7991D</string>
-					<string>CDF833A7EE7D62D5E8C5C264</string>
-					<string>7E93DE97641B3C71198ABBE6</string>
-					<string>B6E4D57456D04699CC90DFA2</string>
-					<string>E96A02E8D25D2E1A699A663A</string>
-					<string>7603FD1AA44EC18A3AF0338B</string>
-					<string>205741C0BF2766CAF36ADE92</string>
-					<string>D220FF2F3DBFDB0E9A76C82A</string>
-					<string>5D538E8CA5D313C0A600F395</string>
-					<string>487A43DB516955C4E631176F</string>
-					<string>DB375B55B6FFE15AB45CD9B3</string>
-					<string>50DD78F5F66788681A78F89F</string>
-					<string>ADD511D49A86361A39BE30F4</string>
-					<string>5B429143FD021C1663D1A517</string>
-					<string>9573CB2C0446436E972192DF</string>
-					<string>3D161D8E3D33931AEA832737</string>
-					<string>FB1CCFB648FE180FECEE3B82</string>
-					<string>26A5D5456D6F2360ED3CF50A</string>
-					<string>5EA35A4793D70F572EF8826B</string>
-					<string>581CC92618D2EBE1130A36BD</string>
-					<string>C629128E546F143BB1A6EC81</string>
-					<string>D851473F5D96B3407FF654B7</string>
-					<string>6E1AB1851F6F2A8505755BD0</string>
-					<string>E67B137E54F4791FFB4EFEBF</string>
-					<string>BE4E58038F84FA600E93D712</string>
-					<string>7F97F13DCA3667D56D22CC43</string>
-					<string>0CBC9CB727F5331850EB3EB5</string>
-					<string>B9C8C76364C733BF3E5ACB2B</string>
-					<string>3224AEA2EF48D0CDC0F7F168</string>
-					<string>42356D7C6F05F3B45C2ACE05</string>
-					<string>F1E0B6A406EB6A69AF840B05</string>
-					<string>A193130F10A0DCD7910CAE81</string>
-					<string>47C04ABECC24E471471EDC33</string>
-					<string>89CCF6BC51D0070E6BDF429C</string>
-					<string>44CB1CFBBC958597468F2081</string>
-					<string>8816CA58CD4A432F6C59EB40</string>
-					<string>9E75E2BDF45FAD6FCB52415A</string>
-					<string>0CA0880EEE35C0F69A7AEEBF</string>
-					<string>9C9C4D4E93F0213B11727961</string>
-					<string>32B913CD339D620EEC4564AE</string>
-					<string>62AF95C5A843771AA812AFCF</string>
-					<string>462EE20F132B797BDC4FCDB7</string>
-					<string>82B55208AFA07651A025D470</string>
-					<string>A86E205AA08FCE2E2B72E8CE</string>
-					<string>AF92B8C25348A352437A4319</string>
+					<string>0dab0f7bc0de7a57e14564502141e514</string>
+					<string>a7354d0031c9301a052d556e329753d9</string>
+					<string>db3c3f22739ff419c6cd1bbae7cbad01</string>
+					<string>5d5683b84c26a9e7bb1cbaf999948664</string>
+					<string>55ce8c6f9bbb1519f8805997edb83e5f</string>
+					<string>c4b31328896e15bb4105c613fa28d68d</string>
+					<string>71f0731eaf0484f6e2ba605bcd718237</string>
+					<string>6153fcf0cbddf7b27ae40d98678b2a34</string>
+					<string>0c9569efafb1c1a79790bacee84a43e3</string>
+					<string>65d3e44bec1b582faa3bc0c5bf3fd61b</string>
+					<string>81c02f477ed22452f023602be1965b07</string>
+					<string>aefd3fe6a3106281bc82630ebc9895cd</string>
+					<string>cc44826e81cb0ad3aae0f518a4e41cca</string>
+					<string>1f5d2253e52b28ad892c31fa1e1fe5f7</string>
+					<string>ae32c431b1b4ffb5653737273f656e07</string>
+					<string>40ef4525ce4702db0e3413ef2e0a05aa</string>
+					<string>a58e28bef98d9715d84e7e2e1c240c57</string>
+					<string>11f90e79733edf397bb4548c1b5bec91</string>
+					<string>9b50adad28780ca319f2e218d10e1d64</string>
+					<string>c5eabed05a9b41d8c711b330e9510546</string>
+					<string>cf3bc9052d3f08a0e74efeb16757d1f5</string>
+					<string>37f4d6dbb844a47f4d7fca9a96e05807</string>
+					<string>afbcfdb55c748b224cc2d48714dc156e</string>
+					<string>8f30b67eb6d6152e4c39f88207aaafe2</string>
+					<string>7418886d2830fd9d06d89d7fab956f3e</string>
+					<string>5ffc4b784d39306c8382db1839797b81</string>
+					<string>74bef271c23988d0ffd9a232320e9be5</string>
+					<string>f3966210553ee422b1233006c50564c0</string>
+					<string>1733b7c99b6877eb08dbe52aabb77f6c</string>
+					<string>c8df9791e5b3711b2f49d650658c330b</string>
+					<string>d54c75eda30609148bbf84b11f9dd1e0</string>
+					<string>963b4b2c8a2dfb43ab7748a6aedc6aa7</string>
+					<string>517bd768b2afa74861edc8526815cd53</string>
+					<string>3377d14893513816738a3b70a1f86915</string>
+					<string>f881aebd20e356070d0501524caa0d8a</string>
+					<string>fe636d5dd3be7a87db9e1515df0649cb</string>
+					<string>9d0ee6d3eb596c97122fd1ee512ee26d</string>
+					<string>585c6354e5a3d47011ed2ec981cefafe</string>
+					<string>4f38b6b6e97e395e09e85a7d70905b1e</string>
+					<string>05f14575ed22c8d09456ec1af74ff2a6</string>
+					<string>422dff2305663462e3092375d5bc8729</string>
+					<string>b20355d0bcc2ce007fd443161084ab2d</string>
+					<string>32a605a3150df5df19504efead5b7251</string>
+					<string>7e9f16e101c8efe888aff8ee2a1d135c</string>
+					<string>66e003f5daeb893f0e0f7054015e92c2</string>
+					<string>bd18c8468b8601e9f6ba9d256fd232a9</string>
+					<string>9884f58f4c9de4c8a5f4db35a4f010da</string>
+					<string>08948c631b71d15006818c3a86d7dace</string>
+					<string>a4992584f47bbeb3265e3ca69a65f117</string>
+					<string>0341695bbf6a54a78d47db01dcda2ebe</string>
+					<string>96abf1a161fac073b6447d4e385593bd</string>
+					<string>d6968ea7acb93bbfe929f0ce324abc6c</string>
+					<string>2ebff42c78ea6ea352da549e88817690</string>
+					<string>e9b528afe9b77920e708e64bf3a9a4cc</string>
+					<string>5a06e4b45eb7dcd71af443fcbc00bd49</string>
+					<string>33d0aa77cf42076a784913fdc16fdeda</string>
+					<string>33a327c36d180de389de1e1450cb5ded</string>
+					<string>b207c2e7cb61776e242144818521ca75</string>
+					<string>e0fd22b04eb35c297cef5a64211520a0</string>
+					<string>d16ed4d4eb9e8513648be5ea22a6b767</string>
+					<string>86a508ebd01ef0631e0cd3c6d4bde4de</string>
+					<string>9e6a8a3bbe1e12717d78bfc1723f6727</string>
+					<string>05cfede77645118403feabb689c4463e</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -1269,7 +1632,7 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>A7A636C9E7467E603E72266B</key>
+			<key>0dab0f7bc0de7a57e14564502141e514</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1280,11 +1643,11 @@
 				<key>name</key>
 				<string>associated_min_max.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtx/associated_min_max.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx/associated_min_max.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>A6EB8D67C64C9277528B7180</key>
+			<key>211c304871c8a6a57290f527dd3625bf</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1295,11 +1658,11 @@
 				<key>name</key>
 				<string>ulp.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtc/ulp.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtc/ulp.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>29A67FA31C4618E56443404C</key>
+			<key>f1a02cb0e6e91286b1f7b2728ec1bfbd</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1310,11 +1673,11 @@
 				<key>name</key>
 				<string>type_ptr.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtc/type_ptr.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtc/type_ptr.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>2F3EB2A50BC8B45E4D783B95</key>
+			<key>ef8ff9ef09484a67656a303f2c0d498c</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1325,11 +1688,11 @@
 				<key>name</key>
 				<string>type_precision.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtc/type_precision.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtc/type_precision.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>B5A00A6311EB8D1DC0942CE9</key>
+			<key>9d4e8d4404d15dc0fd8a9ef3d35b9700</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1340,11 +1703,11 @@
 				<key>name</key>
 				<string>reciprocal.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtc/reciprocal.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtc/reciprocal.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>CC3579377B18802CFF57DE65</key>
+			<key>3c9d2b867059d74a3455174f54864b22</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1355,11 +1718,11 @@
 				<key>name</key>
 				<string>random.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtc/random.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtc/random.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>A4460B133D65D4FE7EE289DB</key>
+			<key>70fd236c2ab2f95029354532803504a7</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1370,11 +1733,11 @@
 				<key>name</key>
 				<string>quaternion.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtc/quaternion.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtc/quaternion.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>6264B818F30B4F8D0825E1F8</key>
+			<key>fcf9af03dab7882118e9de3ca385b716</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1385,11 +1748,11 @@
 				<key>name</key>
 				<string>packing.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtc/packing.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtc/packing.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>6B428DF2D22A73A237A288F4</key>
+			<key>d020cc68fde669621f814864f4d0b177</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1400,11 +1763,11 @@
 				<key>name</key>
 				<string>noise.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtc/noise.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtc/noise.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>BB40D5C655BF5F7995C9D5FC</key>
+			<key>62cd6e2ca0ac557c9a0b3b9ba7101297</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1415,11 +1778,11 @@
 				<key>name</key>
 				<string>matrix_transform.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtc/matrix_transform.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtc/matrix_transform.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>DD4AE72569F874CFA3E255EA</key>
+			<key>d20ea03d5d7ebd7776b31196b0d4bac0</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1430,11 +1793,11 @@
 				<key>name</key>
 				<string>matrix_inverse.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtc/matrix_inverse.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtc/matrix_inverse.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>5AAF7CF16236ECF95F7D191C</key>
+			<key>a6961ce5fb2fb6a90e364ea47631ef68</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1445,11 +1808,11 @@
 				<key>name</key>
 				<string>matrix_integer.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtc/matrix_integer.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtc/matrix_integer.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>3D9E08C17C8C0E293A226B2F</key>
+			<key>8fa80f3aa36db6a4660926c86f091ff0</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1460,11 +1823,11 @@
 				<key>name</key>
 				<string>matrix_access.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtc/matrix_access.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtc/matrix_access.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>453408D1F44FEC483C584E47</key>
+			<key>634742d333028ee076be197f2212e8af</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1475,28 +1838,28 @@
 				<key>name</key>
 				<string>epsilon.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtc/epsilon.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtc/epsilon.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>A4CC0A9083131117F4BF06A2</key>
+			<key>c689336b23b6eaecfe110a80f9e14954</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>898CA0DB2A581DF361F10DE6</string>
-					<string>453408D1F44FEC483C584E47</string>
-					<string>3D9E08C17C8C0E293A226B2F</string>
-					<string>5AAF7CF16236ECF95F7D191C</string>
-					<string>DD4AE72569F874CFA3E255EA</string>
-					<string>BB40D5C655BF5F7995C9D5FC</string>
-					<string>6B428DF2D22A73A237A288F4</string>
-					<string>6264B818F30B4F8D0825E1F8</string>
-					<string>A4460B133D65D4FE7EE289DB</string>
-					<string>CC3579377B18802CFF57DE65</string>
-					<string>B5A00A6311EB8D1DC0942CE9</string>
-					<string>2F3EB2A50BC8B45E4D783B95</string>
-					<string>29A67FA31C4618E56443404C</string>
-					<string>A6EB8D67C64C9277528B7180</string>
+					<string>cf1b9d0cabdb09755db8936b38bc0ad9</string>
+					<string>634742d333028ee076be197f2212e8af</string>
+					<string>8fa80f3aa36db6a4660926c86f091ff0</string>
+					<string>a6961ce5fb2fb6a90e364ea47631ef68</string>
+					<string>d20ea03d5d7ebd7776b31196b0d4bac0</string>
+					<string>62cd6e2ca0ac557c9a0b3b9ba7101297</string>
+					<string>d020cc68fde669621f814864f4d0b177</string>
+					<string>fcf9af03dab7882118e9de3ca385b716</string>
+					<string>70fd236c2ab2f95029354532803504a7</string>
+					<string>3c9d2b867059d74a3455174f54864b22</string>
+					<string>9d4e8d4404d15dc0fd8a9ef3d35b9700</string>
+					<string>ef8ff9ef09484a67656a303f2c0d498c</string>
+					<string>f1a02cb0e6e91286b1f7b2728ec1bfbd</string>
+					<string>211c304871c8a6a57290f527dd3625bf</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -1505,7 +1868,7 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>898CA0DB2A581DF361F10DE6</key>
+			<key>cf1b9d0cabdb09755db8936b38bc0ad9</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1516,11 +1879,11 @@
 				<key>name</key>
 				<string>constants.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/gtc/constants.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtc/constants.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>E5A97046B8463679BAD0B11C</key>
+			<key>ad9edfbe9bb7c718a467cbb5279f9ab3</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1531,11 +1894,11 @@
 				<key>name</key>
 				<string>glm.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/glm.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/glm.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>D86EF34C7A0A29E7E0773CE2</key>
+			<key>b9f70f7d016d5b7d595a131f217eeb04</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1546,11 +1909,11 @@
 				<key>name</key>
 				<string>geometric.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/geometric.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/geometric.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>465A8462EBC39A61E917C2CC</key>
+			<key>f006993dfa9099b4d0a5765d04e75764</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1561,11 +1924,11 @@
 				<key>name</key>
 				<string>fwd.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/fwd.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/fwd.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>4D0B22C61AF4EB5E8D2AFA04</key>
+			<key>e8fee15414c10b507a5f7f824a7a0a54</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1576,11 +1939,11 @@
 				<key>name</key>
 				<string>ext.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/ext.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/ext.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>067CA91B57656AF443D54667</key>
+			<key>e9d1165812cbb8efa03b3f15bbce05e4</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1591,11 +1954,11 @@
 				<key>name</key>
 				<string>exponential.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/exponential.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/exponential.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>F300566D9363219BBDD7EB25</key>
+			<key>c60d11140349db0868701b0f9595f4a2</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1606,11 +1969,11 @@
 				<key>name</key>
 				<string>type_vec4.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/type_vec4.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/type_vec4.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>FCD9514E670864947E869EFF</key>
+			<key>124da564174f82fdd5a4f440f6cd1010</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1621,11 +1984,11 @@
 				<key>name</key>
 				<string>type_vec3.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/type_vec3.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/type_vec3.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>E5D7CC67C2F71C17B3C8761A</key>
+			<key>cd8bf3efa5af46e6da2d59f2b53a3816</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1636,11 +1999,11 @@
 				<key>name</key>
 				<string>type_vec2.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/type_vec2.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/type_vec2.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>F5379CA60E37339431C641F9</key>
+			<key>79f21f808edb666343c0d8af0a74e9fc</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1651,11 +2014,11 @@
 				<key>name</key>
 				<string>type_vec1.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/type_vec1.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/type_vec1.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>53ACC3D853BCFA7759B7D049</key>
+			<key>94d98852e358094a0dca234712a5ed06</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1666,11 +2029,11 @@
 				<key>name</key>
 				<string>type_vec.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/type_vec.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/type_vec.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>B77C37E8DD9DE552A8FB8B6C</key>
+			<key>262a33386c9a8ff9f9d81b72c58ecfed</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1681,11 +2044,11 @@
 				<key>name</key>
 				<string>type_mat4x4.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/type_mat4x4.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/type_mat4x4.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>D1E577CF38623DA71C89B967</key>
+			<key>55e9d6de99469ec58733143e7f3ebc3b</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1696,11 +2059,11 @@
 				<key>name</key>
 				<string>type_mat4x3.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/type_mat4x3.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/type_mat4x3.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>1BE97483E4FD06EED061F103</key>
+			<key>d32600ca413d4759d36723f918630a7e</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1711,11 +2074,11 @@
 				<key>name</key>
 				<string>type_mat4x2.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/type_mat4x2.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/type_mat4x2.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>03AACD4F4A4C935BD0793D44</key>
+			<key>762badf33863b9123a1a21157bf49399</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1726,11 +2089,11 @@
 				<key>name</key>
 				<string>type_mat3x4.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/type_mat3x4.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/type_mat3x4.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>32B1EAD88A668A6ED0BF27AD</key>
+			<key>ead448c36b4498a2c6b021532b985036</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1741,11 +2104,11 @@
 				<key>name</key>
 				<string>type_mat3x3.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/type_mat3x3.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/type_mat3x3.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>CDB57E48033854D2A0D9C9C3</key>
+			<key>00525d553ba1819e9f7dc92e182ea9b9</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1756,11 +2119,11 @@
 				<key>name</key>
 				<string>type_mat3x2.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/type_mat3x2.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/type_mat3x2.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>2992175D9CC9F74621CE7205</key>
+			<key>37b990319839683ea27d40a503bf3499</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1771,11 +2134,11 @@
 				<key>name</key>
 				<string>type_mat2x4.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/type_mat2x4.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/type_mat2x4.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>65BC1EE097688CD9B5D40A9C</key>
+			<key>ab379a4a391d2b3506bb40885c803e1c</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1786,11 +2149,11 @@
 				<key>name</key>
 				<string>type_mat2x3.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/type_mat2x3.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/type_mat2x3.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>B7241C2088CB820AD06507B5</key>
+			<key>a6be8a5ac10796ea9e1baa31d97db31b</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1801,11 +2164,11 @@
 				<key>name</key>
 				<string>type_mat2x2.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/type_mat2x2.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/type_mat2x2.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>DF22D21ABBFD7123E990048B</key>
+			<key>25dcf1a221a32a972d19715067cd3cbc</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1816,11 +2179,11 @@
 				<key>name</key>
 				<string>type_mat.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/type_mat.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/type_mat.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>1FA323009D9FE7FA298AE181</key>
+			<key>8852f8ef28323cdd62efd22df5c8eafe</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1831,11 +2194,11 @@
 				<key>name</key>
 				<string>type_int.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/type_int.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/type_int.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>102D133D91063113C13C4957</key>
+			<key>d47a277d5c682e4c5ac54b59ab58d149</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1846,11 +2209,11 @@
 				<key>name</key>
 				<string>type_half.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/type_half.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/type_half.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>DF1498280CB9599920DAAF03</key>
+			<key>05cec7bb5fafee92390147af1fb255fa</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1861,11 +2224,11 @@
 				<key>name</key>
 				<string>type_gentype.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/type_gentype.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/type_gentype.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>03A7EFB04CEE57FA0C72E536</key>
+			<key>ea8a4d8723a83daf4890b0c4a427ed3d</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1876,11 +2239,11 @@
 				<key>name</key>
 				<string>type_float.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/type_float.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/type_float.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>F10B46DF0F621FC85C222389</key>
+			<key>ac1b13d07af4b8028be2d3dda38616da</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1891,11 +2254,11 @@
 				<key>name</key>
 				<string>setup.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/setup.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/setup.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>A40DDE7C388B2BF232500497</key>
+			<key>a0f0ac2181f57d00a829db40919a03cd</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1906,11 +2269,11 @@
 				<key>name</key>
 				<string>precision.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/precision.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/precision.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>4639C644B875CFD644B9AB6E</key>
+			<key>7adaca7063e25e0e7ba72687db9705f0</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1921,11 +2284,11 @@
 				<key>name</key>
 				<string>intrinsic_vector_relational.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/intrinsic_vector_relational.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/intrinsic_vector_relational.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>8C935D6816FC1A556A283374</key>
+			<key>d7da3a418191e133507a4c6d84c33fea</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1936,11 +2299,11 @@
 				<key>name</key>
 				<string>intrinsic_trigonometric.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/intrinsic_trigonometric.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/intrinsic_trigonometric.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>74CE1894BFA4F74AFE112B5F</key>
+			<key>78643075e0c3f6d7975d1ec0a7e33c99</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1951,11 +2314,11 @@
 				<key>name</key>
 				<string>intrinsic_matrix.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/intrinsic_matrix.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/intrinsic_matrix.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>713EE912F0BDFA1F950B9753</key>
+			<key>1232fd4de4f6d80d8b453608b86270e3</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1966,11 +2329,11 @@
 				<key>name</key>
 				<string>intrinsic_integer.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/intrinsic_integer.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/intrinsic_integer.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>D26D072ED41E5922BDE6714F</key>
+			<key>e7c8d590d9481210baa32c0f6737a94d</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1981,11 +2344,11 @@
 				<key>name</key>
 				<string>intrinsic_geometric.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/intrinsic_geometric.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/intrinsic_geometric.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>8E43A50F7BFC7D84E000D251</key>
+			<key>410502299addd508c3cd3c855546c2db</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1996,11 +2359,11 @@
 				<key>name</key>
 				<string>intrinsic_exponential.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/intrinsic_exponential.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/intrinsic_exponential.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>6C5FC47CADCBF3F0354170DA</key>
+			<key>336c879752fd9f0cb7e6431774132a0f</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2011,11 +2374,11 @@
 				<key>name</key>
 				<string>intrinsic_common.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/intrinsic_common.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/intrinsic_common.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>40135BD21BCD5EC61F98973D</key>
+			<key>95326f373cd12afeedde61359a28132d</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2026,18 +2389,18 @@
 				<key>name</key>
 				<string>hint.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/hint.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/hint.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>816089AC921E5EEBB64D98BC</key>
+			<key>265e88e587a6e8d20a2582b0775b4d4e</key>
 			<dict>
 				<key>fileRef</key>
-				<string>792AB5B064E74D0675BEA6DC</string>
+				<string>3b2148f7dd22a8a30ba9c98ab5b3463c</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>792AB5B064E74D0675BEA6DC</key>
+			<key>3b2148f7dd22a8a30ba9c98ab5b3463c</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -2048,11 +2411,11 @@
 				<key>name</key>
 				<string>glm.cpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/glm.cpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/glm.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>FB98149D1B156ACF2693274E</key>
+			<key>b687ff6b219ea94a9ba9c470d331f4d5</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2063,11 +2426,11 @@
 				<key>name</key>
 				<string>func_vector_relational.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/func_vector_relational.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/func_vector_relational.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>5E23A2A5C4CFD5B9E5F22DA7</key>
+			<key>bd2fada1c3096a2e018297988bd2dd62</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2078,11 +2441,11 @@
 				<key>name</key>
 				<string>func_trigonometric.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/func_trigonometric.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/func_trigonometric.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>A3D046CA3F98B1C60F1BCE50</key>
+			<key>742dcd1b55ac0166f89eb9a135fd5165</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2093,11 +2456,11 @@
 				<key>name</key>
 				<string>func_packing.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/func_packing.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/func_packing.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>FA9AB21F8965AF24B2F8C48F</key>
+			<key>bd6eabae702f45d94ca7a9df44c48db5</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2108,11 +2471,11 @@
 				<key>name</key>
 				<string>func_noise.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/func_noise.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/func_noise.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>B0471395A58B3D56977811D8</key>
+			<key>37a643697d60b2a45df4d8dbe72e5ffe</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2123,11 +2486,11 @@
 				<key>name</key>
 				<string>func_matrix.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/func_matrix.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/func_matrix.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>9BB98D72ECA285819BB86C11</key>
+			<key>c665952a4dd0d393be16f1c8806024eb</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2138,11 +2501,11 @@
 				<key>name</key>
 				<string>func_integer.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/func_integer.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/func_integer.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>3FD522F48B9F67EF0922DD82</key>
+			<key>09e3473017bc409a33801f09e3718e8a</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2153,11 +2516,11 @@
 				<key>name</key>
 				<string>func_geometric.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/func_geometric.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/func_geometric.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>FA5B64A72B80639004CFEF1C</key>
+			<key>d32aa2640424871d0458cedf641806ed</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2168,11 +2531,11 @@
 				<key>name</key>
 				<string>func_exponential.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/func_exponential.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/func_exponential.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>9142ECE050A85E401BCE3DBF</key>
+			<key>e1895b79c9e0b5c5b692db02cb051ea5</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2183,11 +2546,11 @@
 				<key>name</key>
 				<string>func_common.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/func_common.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/func_common.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>773D7F03C597749480E01353</key>
+			<key>38703261bffe4ce835a41f53dfd598c1</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2198,11 +2561,11 @@
 				<key>name</key>
 				<string>_vectorize.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/_vectorize.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/_vectorize.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>D7414214F524AD32E0FF1F05</key>
+			<key>637e283bacfb089ba12433af447e5b78</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2213,11 +2576,11 @@
 				<key>name</key>
 				<string>_swizzle_func.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/_swizzle_func.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/_swizzle_func.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>9651C528A005EEF884750554</key>
+			<key>d0b6ec78753258aa670d6391ee19be6b</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2228,11 +2591,11 @@
 				<key>name</key>
 				<string>_swizzle.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/_swizzle.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/_swizzle.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>BD6176F29AA591FC7BFD90D7</key>
+			<key>d664526a87c7e0696641cda0f334b837</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2243,11 +2606,11 @@
 				<key>name</key>
 				<string>_noise.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/_noise.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/_noise.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>034A94110FC22474CB256FD3</key>
+			<key>62b20410545d77efd2be40bb490e4dea</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2258,11 +2621,11 @@
 				<key>name</key>
 				<string>_literals.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/_literals.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/_literals.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>E39A3B46391FF8F561CAF4DC</key>
+			<key>de3189041134fe411562cd8cac9435f7</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2273,60 +2636,60 @@
 				<key>name</key>
 				<string>_fixes.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/_fixes.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/_fixes.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>5AA9E009014A34D03A5CBCDB</key>
+			<key>1a8335e45879dcd139343712c776d851</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>412A1315708908F6827F70A5</string>
-					<string>E39A3B46391FF8F561CAF4DC</string>
-					<string>034A94110FC22474CB256FD3</string>
-					<string>BD6176F29AA591FC7BFD90D7</string>
-					<string>9651C528A005EEF884750554</string>
-					<string>D7414214F524AD32E0FF1F05</string>
-					<string>773D7F03C597749480E01353</string>
-					<string>9142ECE050A85E401BCE3DBF</string>
-					<string>FA5B64A72B80639004CFEF1C</string>
-					<string>3FD522F48B9F67EF0922DD82</string>
-					<string>9BB98D72ECA285819BB86C11</string>
-					<string>B0471395A58B3D56977811D8</string>
-					<string>FA9AB21F8965AF24B2F8C48F</string>
-					<string>A3D046CA3F98B1C60F1BCE50</string>
-					<string>5E23A2A5C4CFD5B9E5F22DA7</string>
-					<string>FB98149D1B156ACF2693274E</string>
-					<string>792AB5B064E74D0675BEA6DC</string>
-					<string>40135BD21BCD5EC61F98973D</string>
-					<string>6C5FC47CADCBF3F0354170DA</string>
-					<string>8E43A50F7BFC7D84E000D251</string>
-					<string>D26D072ED41E5922BDE6714F</string>
-					<string>713EE912F0BDFA1F950B9753</string>
-					<string>74CE1894BFA4F74AFE112B5F</string>
-					<string>8C935D6816FC1A556A283374</string>
-					<string>4639C644B875CFD644B9AB6E</string>
-					<string>A40DDE7C388B2BF232500497</string>
-					<string>F10B46DF0F621FC85C222389</string>
-					<string>03A7EFB04CEE57FA0C72E536</string>
-					<string>DF1498280CB9599920DAAF03</string>
-					<string>102D133D91063113C13C4957</string>
-					<string>1FA323009D9FE7FA298AE181</string>
-					<string>DF22D21ABBFD7123E990048B</string>
-					<string>B7241C2088CB820AD06507B5</string>
-					<string>65BC1EE097688CD9B5D40A9C</string>
-					<string>2992175D9CC9F74621CE7205</string>
-					<string>CDB57E48033854D2A0D9C9C3</string>
-					<string>32B1EAD88A668A6ED0BF27AD</string>
-					<string>03AACD4F4A4C935BD0793D44</string>
-					<string>1BE97483E4FD06EED061F103</string>
-					<string>D1E577CF38623DA71C89B967</string>
-					<string>B77C37E8DD9DE552A8FB8B6C</string>
-					<string>53ACC3D853BCFA7759B7D049</string>
-					<string>F5379CA60E37339431C641F9</string>
-					<string>E5D7CC67C2F71C17B3C8761A</string>
-					<string>FCD9514E670864947E869EFF</string>
-					<string>F300566D9363219BBDD7EB25</string>
+					<string>837ce397d34f15d0bd1760ad0ce7e607</string>
+					<string>de3189041134fe411562cd8cac9435f7</string>
+					<string>62b20410545d77efd2be40bb490e4dea</string>
+					<string>d664526a87c7e0696641cda0f334b837</string>
+					<string>d0b6ec78753258aa670d6391ee19be6b</string>
+					<string>637e283bacfb089ba12433af447e5b78</string>
+					<string>38703261bffe4ce835a41f53dfd598c1</string>
+					<string>e1895b79c9e0b5c5b692db02cb051ea5</string>
+					<string>d32aa2640424871d0458cedf641806ed</string>
+					<string>09e3473017bc409a33801f09e3718e8a</string>
+					<string>c665952a4dd0d393be16f1c8806024eb</string>
+					<string>37a643697d60b2a45df4d8dbe72e5ffe</string>
+					<string>bd6eabae702f45d94ca7a9df44c48db5</string>
+					<string>742dcd1b55ac0166f89eb9a135fd5165</string>
+					<string>bd2fada1c3096a2e018297988bd2dd62</string>
+					<string>b687ff6b219ea94a9ba9c470d331f4d5</string>
+					<string>3b2148f7dd22a8a30ba9c98ab5b3463c</string>
+					<string>95326f373cd12afeedde61359a28132d</string>
+					<string>336c879752fd9f0cb7e6431774132a0f</string>
+					<string>410502299addd508c3cd3c855546c2db</string>
+					<string>e7c8d590d9481210baa32c0f6737a94d</string>
+					<string>1232fd4de4f6d80d8b453608b86270e3</string>
+					<string>78643075e0c3f6d7975d1ec0a7e33c99</string>
+					<string>d7da3a418191e133507a4c6d84c33fea</string>
+					<string>7adaca7063e25e0e7ba72687db9705f0</string>
+					<string>a0f0ac2181f57d00a829db40919a03cd</string>
+					<string>ac1b13d07af4b8028be2d3dda38616da</string>
+					<string>ea8a4d8723a83daf4890b0c4a427ed3d</string>
+					<string>05cec7bb5fafee92390147af1fb255fa</string>
+					<string>d47a277d5c682e4c5ac54b59ab58d149</string>
+					<string>8852f8ef28323cdd62efd22df5c8eafe</string>
+					<string>25dcf1a221a32a972d19715067cd3cbc</string>
+					<string>a6be8a5ac10796ea9e1baa31d97db31b</string>
+					<string>ab379a4a391d2b3506bb40885c803e1c</string>
+					<string>37b990319839683ea27d40a503bf3499</string>
+					<string>00525d553ba1819e9f7dc92e182ea9b9</string>
+					<string>ead448c36b4498a2c6b021532b985036</string>
+					<string>762badf33863b9123a1a21157bf49399</string>
+					<string>d32600ca413d4759d36723f918630a7e</string>
+					<string>55e9d6de99469ec58733143e7f3ebc3b</string>
+					<string>262a33386c9a8ff9f9d81b72c58ecfed</string>
+					<string>94d98852e358094a0dca234712a5ed06</string>
+					<string>79f21f808edb666343c0d8af0a74e9fc</string>
+					<string>cd8bf3efa5af46e6da2d59f2b53a3816</string>
+					<string>124da564174f82fdd5a4f440f6cd1010</string>
+					<string>c60d11140349db0868701b0f9595f4a2</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -2335,7 +2698,7 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>412A1315708908F6827F70A5</key>
+			<key>837ce397d34f15d0bd1760ad0ce7e607</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2346,40 +2709,40 @@
 				<key>name</key>
 				<string>_features.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/detail/_features.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail/_features.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>3341C51065DECF0CF70F1980</key>
+			<key>261f710112ad4162607a78d47e86d077</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>4DAB220D37EE761ED2103C1C</string>
-					<string>5AA9E009014A34D03A5CBCDB</string>
-					<string>067CA91B57656AF443D54667</string>
-					<string>4D0B22C61AF4EB5E8D2AFA04</string>
-					<string>465A8462EBC39A61E917C2CC</string>
-					<string>D86EF34C7A0A29E7E0773CE2</string>
-					<string>E5A97046B8463679BAD0B11C</string>
-					<string>A4CC0A9083131117F4BF06A2</string>
-					<string>BF3F8C1EEBAB9191B80D603C</string>
-					<string>7F2BD589627AA3C793F6FBA7</string>
-					<string>A6B40712C18E82331BC10DAC</string>
-					<string>41C79EB80423224D61914E91</string>
-					<string>677B294B6AF70D63C34AC168</string>
-					<string>79A4569B45C7DBC4A09319B2</string>
-					<string>D76EFDD2F6FFED909AFC0BA0</string>
-					<string>2779B1096541417A3BF7DC4A</string>
-					<string>030D6F351543EDF7865678CA</string>
-					<string>0004DAF4F858BC4B054B57D5</string>
-					<string>22657F6000751EA1F26434D0</string>
-					<string>68EF9C59E052C03B5602FCA9</string>
-					<string>1279AFB5A82C42B4ED33452F</string>
-					<string>A6ADBED2CBEEB5151090CCBB</string>
-					<string>A9531D2E7243ED2FBBBFB68D</string>
-					<string>68DDB006524C635FD4501B9A</string>
-					<string>B7136EC76383396F75E3E852</string>
-					<string>94B98883C8B756AB6151C48E</string>
+					<string>ca2725d7f4152695167c6c84f55f8e40</string>
+					<string>1a8335e45879dcd139343712c776d851</string>
+					<string>e9d1165812cbb8efa03b3f15bbce05e4</string>
+					<string>e8fee15414c10b507a5f7f824a7a0a54</string>
+					<string>f006993dfa9099b4d0a5765d04e75764</string>
+					<string>b9f70f7d016d5b7d595a131f217eeb04</string>
+					<string>ad9edfbe9bb7c718a467cbb5279f9ab3</string>
+					<string>c689336b23b6eaecfe110a80f9e14954</string>
+					<string>c2c160f3c85d81774cf6b2fc71db27f6</string>
+					<string>3681dc912c5d24b3e2d06a97f92047ec</string>
+					<string>b3178c1f85acce766d5dbfe78131b733</string>
+					<string>42026d97d2583157a87732c840f9202e</string>
+					<string>e1b7559bb9447aa2564f4d6a6a5c12cd</string>
+					<string>585a9f4cd3e7499862e7ff13c48e3c78</string>
+					<string>6679aa1fa0caf645e2cbe80a40d45d37</string>
+					<string>78e7f33239617e9737352f71e3210bdb</string>
+					<string>548f83d8b78b58923ed0b9a10934d96e</string>
+					<string>70fbd2937abd6c33e8d6d7f85100ed72</string>
+					<string>9a9555dcdc624af4f7d60a8e5aa65a09</string>
+					<string>9cb17449c3b71a42db6dde93112603bb</string>
+					<string>12dcb6ba1e0a6abb266e1e9071be27b4</string>
+					<string>bb4a3fb2b9de2ebe800e92ec611ec6bc</string>
+					<string>747737044e84e65a6a40033affc72401</string>
+					<string>6c45318f9f55715d5e1b6351d32cdbb0</string>
+					<string>61bb5f93d0d583bb338428f8321ce960</string>
+					<string>3ad4f75280ac93607dd6d28d58ef528c</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -2388,11 +2751,12 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>784F5706C4FA746DEA01D2BF</key>
+			<key>5c9824f2ddd593f9769dc6f8cc9d6ec4</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>3341C51065DECF0CF70F1980</string>
+					<string>261f710112ad4162607a78d47e86d077</string>
+					<string>e0e41ee1641f6609ab0fd2970075d297</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -2401,7 +2765,7 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>4DAB220D37EE761ED2103C1C</key>
+			<key>ca2725d7f4152695167c6c84f55f8e40</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2412,11 +2776,53 @@
 				<key>name</key>
 				<string>common.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/libs/glm/common.hpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/common.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>51185B2176B60D59EDE0B9F0</key>
+			<key>d893fc509caa59acd40417e7685e021b</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>c4b1699b3c5a4e44d242f2419528cf19</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>4f2cbc032e89a6aa902d014d416c5755</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>d893fc509caa59acd40417e7685e021b</string>
+					<string>5c9824f2ddd593f9769dc6f8cc9d6ec4</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxGlmTools</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>c4b1699b3c5a4e44d242f2419528cf19</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxGlm.h</string>
+				<key>path</key>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/src/ofxGlm.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>072a44cf0ab52798f447381bf8043120</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2427,18 +2833,18 @@
 				<key>name</key>
 				<string>sfmCamera.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/src/sfmCamera.h</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxBundle/src/sfmCamera.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>903EFC8ED92EFD0367990212</key>
+			<key>fc1a61db01f3c9f77ad8db7fa7ac1c56</key>
 			<dict>
 				<key>fileRef</key>
-				<string>C588FCCD5D2496698BA09A92</string>
+				<string>a21e7535a37381fd7fdafb9bda50a9cb</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>C588FCCD5D2496698BA09A92</key>
+			<key>a21e7535a37381fd7fdafb9bda50a9cb</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -2449,11 +2855,11 @@
 				<key>name</key>
 				<string>sfmCamera.cpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/src/sfmCamera.cpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxBundle/src/sfmCamera.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>0F90E7FAEE7C884190FFC377</key>
+			<key>5190c0df9ab73c8ea2595ca8fb9d1131</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2464,18 +2870,18 @@
 				<key>name</key>
 				<string>ofxBundlerViewer.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/src/ofxBundlerViewer.h</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxBundle/src/ofxBundlerViewer.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>3B16454A0805A8FA45645F27</key>
+			<key>3b16454a0805a8fa45645f27df20f5d6</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>05BE8D02925777E9EC23F745</string>
-					<string>0F90E7FAEE7C884190FFC377</string>
-					<string>C588FCCD5D2496698BA09A92</string>
-					<string>51185B2176B60D59EDE0B9F0</string>
+					<string>22fcdf67452e1c62fa0f27baac95cf17</string>
+					<string>5190c0df9ab73c8ea2595ca8fb9d1131</string>
+					<string>a21e7535a37381fd7fdafb9bda50a9cb</string>
+					<string>072a44cf0ab52798f447381bf8043120</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -2484,12 +2890,11 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>4C1F00ADE0A2B30E51642BFF</key>
+			<key>4c1f00ade0a2b30e51642bff3990065c</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>3B16454A0805A8FA45645F27</string>
-					<string>784F5706C4FA746DEA01D2BF</string>
+					<string>3b16454a0805a8fa45645f27df20f5d6</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -2498,14 +2903,14 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>DA154AB8181939C61DC43675</key>
+			<key>d81a478266bfda2c676f055198843c9a</key>
 			<dict>
 				<key>fileRef</key>
-				<string>05BE8D02925777E9EC23F745</string>
+				<string>22fcdf67452e1c62fa0f27baac95cf17</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>05BE8D02925777E9EC23F745</key>
+			<key>22fcdf67452e1c62fa0f27baac95cf17</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -2516,7 +2921,7 @@
 				<key>name</key>
 				<string>ofxBundlerViewer.cpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxBundle/src/ofxBundlerViewer.cpp</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxBundle/src/ofxBundlerViewer.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2524,7 +2929,8 @@
 			<dict>
 				<key>children</key>
 				<array>
-					<string>4C1F00ADE0A2B30E51642BFF</string>
+					<string>4c1f00ade0a2b30e51642bff3990065c</string>
+					<string>4f2cbc032e89a6aa902d014d416c5755</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -2542,7 +2948,7 @@
 				<key>name</key>
 				<string>GLUT.framework</string>
 				<key>path</key>
-				<string>../../../libs/glut/lib/osx/GLUT.framework</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/libs/glut/lib/osx/GLUT.framework</string>
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
@@ -2601,7 +3007,7 @@
 				<key>name</key>
 				<string>openFrameworksLib.xcodeproj</string>
 				<key>path</key>
-				<string>../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2911,13 +3317,19 @@
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
-						<string>../../../addons/ofxBundle/libs</string>
-						<string>../../../addons/ofxBundle/libs/glm</string>
-						<string>../../../addons/ofxBundle/libs/glm/detail</string>
-						<string>../../../addons/ofxBundle/libs/glm/gtc</string>
-						<string>../../../addons/ofxBundle/libs/glm/gtx</string>
-						<string>../../../addons/ofxBundle/src</string>
 						<string>src</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxBundle/libs</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxBundle/src</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtc</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools/gl</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools/physics</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools/shapes</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/src</string>
 					</array>
 					<key>ARCHS</key>
 					<string>$(NATIVE_ARCH)</string>
@@ -2976,13 +3388,19 @@
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
-						<string>../../../addons/ofxBundle/libs</string>
-						<string>../../../addons/ofxBundle/libs/glm</string>
-						<string>../../../addons/ofxBundle/libs/glm/detail</string>
-						<string>../../../addons/ofxBundle/libs/glm/gtc</string>
-						<string>../../../addons/ofxBundle/libs/glm/gtx</string>
-						<string>../../../addons/ofxBundle/src</string>
 						<string>src</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxBundle/libs</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxBundle/src</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/detail</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtc</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glm/gtx</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools/gl</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools/physics</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/libs/glmTools/shapes</string>
+						<string>../../../../../../Patricio/Desktop/openFrameworks/addons/ofxGlmTools/src</string>
 					</array>
 					<key>ARCHS</key>
 					<string>$(NATIVE_ARCH)</string>
@@ -3042,9 +3460,17 @@
 				<array>
 					<string>E4B69E200A3A1BDC003C02F2</string>
 					<string>E4B69E210A3A1BDC003C02F2</string>
-					<string>DA154AB8181939C61DC43675</string>
-					<string>903EFC8ED92EFD0367990212</string>
-					<string>816089AC921E5EEBB64D98BC</string>
+					<string>d81a478266bfda2c676f055198843c9a</string>
+					<string>fc1a61db01f3c9f77ad8db7fa7ac1c56</string>
+					<string>265e88e587a6e8d20a2582b0775b4d4e</string>
+					<string>eceee53fce04b1b3c2bcea78d20dd69f</string>
+					<string>9d21201da0ed72c38b2ab84f7a8eed4e</string>
+					<string>5d799094fe8bafe31793b14074d25c0e</string>
+					<string>4e7760b4cb15ee2c067e9bddb301a472</string>
+					<string>8e273c0791aac94b22c52f76a747ce79</string>
+					<string>5cf230bdbf1729edf6fc53d471d63766</string>
+					<string>91be1d6e1288edeb8bfec4802c09caf6</string>
+					<string>fb4de4010f7357290b9e74c2a1c8e90f</string>
 				</array>
 				<key>isa</key>
 				<string>PBXSourcesBuildPhase</string>
@@ -3148,7 +3574,7 @@
 						<string>$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)</string>
 					</array>
 					<key>FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1</key>
-					<string>"$(SRCROOT)/../../../libs/glut/lib/osx"</string>
+					<string>"$(SRCROOT)/../../../../../../Patricio/Desktop/openFrameworks/libs/glut/lib/osx"</string>
 					<key>GCC_DYNAMIC_NO_PIC</key>
 					<string>NO</string>
 					<key>GCC_GENERATE_DEBUGGING_SYMBOLS</key>
@@ -3252,7 +3678,7 @@
 						<string>$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)</string>
 					</array>
 					<key>FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1</key>
-					<string>"$(SRCROOT)/../../../libs/glut/lib/osx"</string>
+					<string>"$(SRCROOT)/../../../../../../Patricio/Desktop/openFrameworks/libs/glut/lib/osx"</string>
 					<key>GCC_GENERATE_DEBUGGING_SYMBOLS</key>
 					<string>YES</string>
 					<key>GCC_MODEL_TUNING</key>
@@ -3444,7 +3870,7 @@
 				<key>shellPath</key>
 				<string>/bin/sh</string>
 				<key>shellScript</key>
-				<string>cp -f ../../../libs/fmodex/lib/osx/libfmodex.dylib "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/libfmodex.dylib"; install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME";
+				<string>cp -f ../../../../../../Patricio/Desktop/openFrameworks/libs/fmodex/lib/osx/libfmodex.dylib "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/libfmodex.dylib"; install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME";
 mkdir -p "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/"
 cp -f "$ICON_FILE" "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/"
 </string>
@@ -3544,7 +3970,7 @@ cp -f "$ICON_FILE" "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/"
 				<key>name</key>
 				<string>CoreOF.xcconfig</string>
 				<key>path</key>
-				<string>../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig</string>
+				<string>../../../../../../Patricio/Desktop/openFrameworks/libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
