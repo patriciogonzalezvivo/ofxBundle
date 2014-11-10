@@ -54,15 +54,15 @@ void ofApp::draw(){
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
     
-    if(key == ' ' || key == OF_KEY_RIGHT){
-        nCamera++;
-        if(nCamera >= bundler.cameras.size()){
-            nCamera = -1;
-        }
-    } if(key == OF_KEY_LEFT){
+    if(key == OF_KEY_LEFT){
         nCamera--;
         if(nCamera == -1){
             nCamera = bundler.cameras.size()-1;
+        }
+    } else {
+        nCamera++;
+        if(nCamera >= bundler.cameras.size()){
+            nCamera = -1;
         }
     }
     

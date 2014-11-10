@@ -9,7 +9,7 @@
 
 #include "ofMain.h"
 
-#include "ofxGlm.h"
+#include <glm.hpp>
 
 //  Using he reference from: https://github.com/snavely/bundler_sfm
 //

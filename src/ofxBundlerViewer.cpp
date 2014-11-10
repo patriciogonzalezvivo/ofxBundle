@@ -8,7 +8,6 @@
 
 #include "ofxBundlerViewer.h"
 
-
 ofxBundlerViewer::ofxBundlerViewer():centroidAlt(0.0),centroidLon(0.0),centroidLat(0.0){
     points.setMode(OF_PRIMITIVE_POINTS);
 }

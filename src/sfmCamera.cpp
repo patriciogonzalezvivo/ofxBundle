@@ -8,6 +8,8 @@
 
 #include "sfmCamera.h"
 
+#include "ofxGlm.h"
+
 sfmCamera::sfmCamera():imgPath("NONE"),R(1.0),t(0.,0.,0.),lat(0.0),lon(0.0),alt(0.0),f(0.0),k1(0.0),k2(0.0){
     
 }
@@ -100,12 +102,7 @@ void sfmCamera::draw(){
     ofPoint bottomRight = center+ofPoint(points[2].x,points[2].y,points[2].z);
     ofPoint bottomLeft = center+ofPoint(points[3].x,points[3].y,points[3].z);
     
-    
-    if(lat != 0 || lon != 0){
-        ofSetColor(0,255,0);
-    } else {
-        ofSetColor(255,0,0);
-    }
+    ofSetColor(0,255,255);
     
     ofLine(center,topLeft);
     ofLine(topLeft,topRight);
